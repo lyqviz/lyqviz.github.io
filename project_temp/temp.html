@@ -1,0 +1,42 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css">
+    <style>
+      svg { 
+        background: #f9f9f9;
+        display: block;
+        margin: 0 auto;
+      }
+
+      h1 { margin-bottom: 2rem; }
+
+      body {
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+        -webkit-print-color-adjust: exact;
+      }
+
+      h3 { margin-top: 3rem; }
+
+      .container {
+        max-width: 1080px;
+      }
+    </style>
+  </head>
+  <body>
+  <div class="container">
+    <h3>Average Monthly Temperatures </h3>
+    <p>Dataset is <code>data/all-temps.csv</code></p>
+
+    <div id="chart-5"></div>
+
+    <!-- This is D3, our graphing library -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/4.2.2/d3.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/4.10.2/d3.min.js"></script>
+
+    <!-- Now we include our own javascript -->
+    <script src="chart-5.js"></script>
+</div>
+</html>

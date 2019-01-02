@@ -1,0 +1,7 @@
+I agree, first one is easier to see the trend.
+
+The only problem would be, what if in one year there were many many many acres burned, but only because there were 10000000 wildfires? You would use opacity and then the 'many small wildfires in one year' would become dark, but probably not the best solution.
+
+The question becomes: do you care about TOTAL ACRES PER YEAR or do you care about SPECIFIC WILDFIRES or do you care about TRENDS OVER TIME? because if you're caring about total acres per year, a scatterplot where x axis = number of fires that year and y axis = total number of acres burned would do a better job at showing "here is the total acres burned that year". On the other hand, if you cares about trends over time you would just have a line graph (or one of http://jpgraph.net/images/gallery/scatter2.gif these horrible things where you connect the dots in a scatterplot).
+
+If you care about specific wildfires AND over time, the half-bubble one could definitely work. If you brought it in with circles I'd be happy to show everyone in class how to turn it into half-circles (you need to make g's + arcs instead of circles, it's weird.).

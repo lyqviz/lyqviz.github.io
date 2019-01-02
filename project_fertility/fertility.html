@@ -1,0 +1,53 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css">
+    <style>
+      svg { 
+        display: block;
+        margin: 0 auto;
+      }
+
+      #chart-2 svg,
+      #chart-3 svg {
+        display: inline-block;
+        margin: 5px;
+      }
+
+      h1 { margin-bottom: 2rem; }
+
+      body {
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+        -webkit-print-color-adjust: exact;
+      }
+
+      h3 { margin-top: 3rem; }
+
+      .container {
+        max-width: 46rem;
+      }
+
+      #chart2 svg g {
+        fill: red;
+      }
+    </style>
+  </head>
+  <body>
+  <div class="container">
+
+    <h3>Compare fertility between Japan and US</h3>
+    <p>Recreate <a href="https://www.reddit.com/r/dataisbeautiful/comments/3gplje/usa_vs_japan_agespecific_fertility_rates_19472010/">this</a>using D3 and small multiples. Each year has its own graph, with Japan and USA area graphs on top of each other and the year as a note at the top. Data is from <code>fertility.csv</code></h3>
+    <div id="chart-2"></div>
+
+    <!-- This is D3, our graphing library -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/4.2.2/d3.min.js"></script>
+
+    <!-- Now we include our actual visualization -->
+    <script src="08-chart-2.js"></script>
+</div>
+</html>
+
+
+

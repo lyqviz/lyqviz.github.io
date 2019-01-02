@@ -1,0 +1,333 @@
+body {
+  background: #fff;
+  font: 400 0.625em "Open Sans", sans-serif;
+  color: #333;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  -webkit-print-color-adjust: exact;
+}
+
+#container {
+  max-width: 100%;
+  text-align: center;
+  margin: auto;
+}
+
+.box1 {
+  width: 100%;
+}
+
+#one-t {
+  width: 80%;
+  margin-left: 10%;
+  margin-top: 5%;
+  font-family: 'Libre Baskerville', serif;
+  font-size: 18px;
+}
+
+#one-p {
+  width: 30%;
+  margin-left: 10%;
+  font-family: 'Crimson Text', serif;
+  font-size: 18px;
+}
+
+#us img {
+  width: 100%;
+}
+
+#ma img {
+  width: 100%;
+}
+
+#two-t {
+  width: 80%;
+  margin-left: 10%;
+  margin-top: 5%;
+  font-family: 'Libre Baskerville', serif;
+  font-size: 18px;
+}
+
+#two-p {
+  width: 30%;
+  margin-left: 10%;
+  font-family: 'Crimson Text', serif;
+  font-size: 15px;
+}
+
+#main {
+  margin: auto;
+  max-width: 70%;
+  text-align: center;
+  padding-top: 50px;
+}
+
+#main p {
+  max-width: 70%;
+  margin: auto;
+  text-align: left;
+}
+
+#table th {
+  color: #202020;
+  font-size: 12px;
+  line-height: 3em;
+  /*text-align: center !important; */
+  border-top: 3px solid white;
+  border-bottom: 2px solid #ccc;
+  padding: 0.3em 0.7em 0.3em 0.3em !important;
+  cursor: pointer;
+}
+
+/* this won't work without #table as there's a priority embedded css     */
+#table th:nth-child(2) {
+  border-top: 3px solid #08519c;
+}
+
+#table td { 
+  border-bottom: 1px solid #ccc;
+  /*text-align: center !important;*/
+  color: #202020;
+  font-size: 12px;
+  line-height: 3.1em;
+  width: 10%;
+}
+
+.sticky {
+  position: -webkit-sticky;
+  position: -moz-sticky;
+  position: -ms-sticky;
+  position: -o-sticky;
+  position: sticky;
+  height: fit-content;
+  top: 5%;
+}
+
+#table td:first-child { 
+  width: 20%;
+  text-align: left;
+}
+
+#table tr:nth-child(n+11) {
+  display: none;
+}
+
+#table td.data-0-2-Years {
+  background: #6baed6;
+  color: white;
+  border-bottom: 1px solid white;
+  text-shadow: 0px 2px 10px black;
+}
+
+.app {
+  max-width: 100%;
+  margin: auto;
+}
+
+.story {
+  margin: auto;
+  text-align: left;
+  padding-top: 35px;
+  max-width: 85%;
+}
+
+#part_2 {
+  margin: auto;
+  max-width: 50%
+}
+
+
+#custome-table td { 
+  border-bottom: 1px solid #ccc;
+  text-align: center;
+  color: #202020;
+  font-size: 0.9em;
+  line-height: 3.1em;
+  width: 10%;
+}
+
+#custome-table td:first-child { 
+  width: 20%;
+  text-align: left;
+}
+
+input {
+  width: 60%;
+  margin-top: 15px;
+  margin-right: 5px;
+  font-size: 12px;
+}
+
+.lede {
+  text-align: center;
+}
+
+.lede p{
+  text-align: center !important;
+  font-size: 1.7em;
+}
+
+svg { 
+  display: block;
+  margin: auto;
+  padding: 20px 0;
+}
+
+#title {
+  max-width: 65%;
+  text-align: center;
+  margin: auto;
+}
+
+h1 {
+  font-size: 3.5em;
+  text-align: center;
+  font-family: 'Bree Serif', serif;
+}
+
+h2 {
+  font-size: 2.4em;
+  font-weight: 700;
+}
+
+p.story {
+   font-size: 1.7em;
+   line-height: 1.8em;
+   padding-bottom: 25px;
+}
+
+p.chart_title {
+  padding: 20px 0 20px;
+  font-size: 1.7em;
+  line-height: 2em;
+  text-align: center !important;
+}
+
+p.explain {
+  padding: 0px;
+  font-size: 1.2em;
+  text-align: center !important;
+  color: black;
+  font-style: italic;
+}
+
+p.teaser {
+  font-weight: 700;
+}
+
+p.by {
+  padding-bottom: 30px;
+  border-bottom: 1px dotted #ddd;
+  text-align: center;
+  font-size: 1.3em;
+  color: #326891;
+  font-family: georgia italic;
+  width: 100%;
+  padding: 5px 0 20px;
+}
+
+p.asterisk {
+  font-style: italic;
+  font-size: 1.1em;
+  color: #A9A9A9;
+  margin: 5px 0px 5px 5px;
+  line-height: 2em;
+}
+
+.d3-tip {
+  padding: 12px;
+  background: #fff;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #08519c;
+  color: #08519c;
+  border-radius: 2px;
+  pointer-events: none;
+  text-align: center;
+  line-height: 1.5em;
+}
+
+.annotation {
+  font-size: 11px;
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  fill: #9E4B6C;
+  font-weight: bold;
+}
+
+.annotation_circle {
+  stroke-dasharray: 2;
+  stroke-width: 1.2;
+  fill: none;
+  stroke: #9E4B6C;
+}
+
+.annotation_line {
+  stroke-width: 1;
+  stroke: #9E4B6C;
+}
+
+.arrowHead {
+  fill: #9E4B6C;
+}
+
+.box2 {
+  width: 100%;
+  height: initial;
+}
+
+button:active, button:focus {
+  background: #BD869D;
+  color: white;
+  outline: none;
+  border-radius: 4px;
+}
+
+img {
+  width: 70%;
+  display: block;
+  margin: auto;
+  padding: 20px 0 0 0;
+}
+
+a:link, a:visited {
+  color: #2789D4;
+  text-decoration: none;
+}
+
+a:focus, a:hover, a:active {
+  text-decoration: underline;
+}
+
+strong {
+  font-weight: 700;
+}
+
+.story {
+  margin: auto;
+  font-size: 15px;
+  text-align: left;
+  padding-top: 35px;
+  max-width: 45%;
+}
+
+#methodologies {
+  max-width: 50%;
+  text-align: center;
+  margin: auto;
+  padding-top: 80px;
+}
+
+#methodologies p.asterisk {
+  font-style: italic;
+  font-size: 0.8em;
+  color: #A9A9A9;
+  margin: 5px 0px 5px 5px;
+  line-height: 2em;
+}
+
+#methodologies ol {
+  font-style: italic;
+  font-size: 1em;
+  color: #A9A9A9;
+}
+

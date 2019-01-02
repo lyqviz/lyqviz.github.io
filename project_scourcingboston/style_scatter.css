@@ -1,0 +1,63 @@
+
+*{
+/*	border: 1px solid black;*/
+}
+
+#scatter-plot {
+	width: 90%;
+	height: initial;
+	margin: auto;
+	font-size: 0;
+}
+
+.scatter {
+	display: inline-block;
+    font-size: initial;
+    vertical-align: text-top;
+    width: 49%;
+    height: 500px;
+}
+
+
+.row {
+	width: 80%;
+	height: initial;
+	margin: auto;
+}
+
+
+.tooltip-elmt {
+	margin: 0px;
+}
+
+#scatter-tooltip {
+	font-size: 12px;
+    position: absolute;
+    text-align: left;
+    padding: 2px 5px;
+    margin: 0px;
+    line-height: 1.8;
+    visibility: hidden;
+    background-color: #FFFFFF;
+    color: #000000;
+    opacity: 0.9;
+    width: 200px;
+    height: initial;
+    font-family: 'Roboto';
+    border-left: 3.5px solid #D96459;
+}
+
+#tooltip-muni {
+	color: #555555;
+	font-size: 14px;
+}
+
+
+.domain {
+	stroke-width: 0px; 
+}
+
+.tick line {
+	stroke: #D3D3D3;
+}
+

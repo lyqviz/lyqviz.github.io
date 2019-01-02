@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<!-- Basic Page Needs–––––––––––––––––––––––––––––––––––––––––––––––––– -->
+<meta charset="utf-8">
+<title>Food Hackthon</title>
+<meta name="description" content="">
+<meta name="author" content="">
+
+<!-- Mobile Specific Metas–––––––––––––––––––––––––––––––––––––––––––––––––– -->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<!-- FONT–––––––––––––––––––––––––––––––––––––––––––––––––– -->
+<link href="https://fonts.googleapis.com/css?family=Libre+Baskerville" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Crimson+Text" rel="stylesheet">
+
+
+
+
+
+<!-- CSS–––––––––––––––––––––––––––––––––––––––––––––––––– -->
+<link rel="stylesheet" href="food.css">
+<link rel = 'stylesheet' type = 'text/css' href = 'style_scatter.css'>
+<link rel="stylesheet" type="text/css" media="screen" href="style.css" />
+
+<!-- Favicon–––––––––––––––––––––––––––––––––––––––––––––––––– -->
+<link rel="icon" type="image/png" href="images/favicon.png">
+<script src="queue.min.js"></script>
+<script src = 'https://d3js.org/d3.v5.min.js'></script>
+  <script
+      src="https://code.jquery.com/jquery-3.2.1.js"
+      integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="
+      crossorigin="anonymous"></script>
+
+
+</head>
+<body>
+
+	<div class="photo">
+		<img id="top" src="images/back.jpg">
+	</div>
+	<div class="title">
+		<div id="head">Food Insecurity in Massachusetts</div>
+	</div>
+	<div class="box1">
+		<div id="one-t">Households with no car and low access to supermarket in US</div>
+		<img id="us" src="images/us.png">
+		
+		<div id="two-t">Households with no car and low access to supermarket in Massachusetts</div>
+		<img id="ma" src="images/ma.png">
+
+		<div id="third-t">Where the minority have low access to store?</div>
+		<img id="asian" src="images/asian.png">
+
+		<img id="black" src="images/black.png">
+
+		<img id="hispanic" src="images/hispanic.png">
+
+	</div>
+	<div class="box2">
+		<div id = 'scatter-plot'>
+		  <p id="four-t">
+		    Comparing Food Insecurity with Income & Food Access
+		  </p>
+			<div class = 'row' id = 'row1'>
+			    <div class = 'scatter' id = 'graphic1'>
+			    	<h5>Median Household Income ($)</h5>
+			    	<svg class = 'scatter-svg' id ='svg1' width = '100%'' height = '100%'></svg>
+			    </div>
+			    <div class = 'scatter' id = 'graphic2'>
+			    	<h5>% of Population One Mile Away From Supermarkets</h5>
+			    	<svg class = 'scatter-svg' id ='svg2' width = '100%'' height = '100%'></svg>
+			    </div>
+			</div>
+		    <div class = 'row' id = 'row2'>
+			    <div class = 'scatter' id = 'graphic3'>
+			    	<h5>% of Senior(65+) One Mile Away From Supermarkets</h5>
+			    	<svg class = 'scatter-svg' id ='svg3' width = '100%'' height = '100%'></svg>
+			    </div>
+			    <div class = 'scatter' id = 'graphic4'>
+			    	<h5>% of Kids(0-17) One Mile Away From Supermarkets</h5>
+			    	<svg class = 'scatter-svg' id ='svg4' width = '100%'' height = '100%'></svg>
+			    </div>  
+		    </div>
+
+
+
+		    <div id = 'scatter-tooltip'>
+		        <h5 class = 'tooltip-elmt' id = 'tooltip-muni'>Municipality</h5>
+		        <p class = 'tooltip-elmt' id = 'tooltip-FIpct'>Food Insecurity Rate</p>
+		        <p class = 'tooltip-elmt' id = 'tooltip-var'></p>
+		    </div>
+		</div>		
+
+	</div>
+	<div class="box3">
+		  <p id="five-t">
+		    Food Insecurity in Boston Neighborhoods
+		  </p>
+		  <p id="five-p">
+		  	This is a bubble visualization comparing neighborhoods in Boston along three variables: population, number of food insecure individuals, and unemployment rate. The circles are sized according to population, and the shade of the circles correspond to food insecurity. Darker circles have more food insecure individuals, and lighter ones have less.
+		  	<br>
+ 			Click the buttons to arrange the neighborhoods by unemployment rate.
+		  </p>
+		  <div class ='buttons'>
+			  <button id="five">5% Unemployment</button>
+			  <button id="seven_five">7.5% Unemployment</button>
+			  <button id="ten">10% Unemployment</button>
+			  <button id="combine">Combine</button>
+		  </div>
+		  <div id="svg_container">
+		  </div>		
+	</div>
+
+	<div class="bottom">
+		<p id="name">Designed by: Shing-Yun Chiang, Yuqing Liu, Dan Spector</p>
+		<p id="dataname">Data Sources: <br> USDA, DataCommon(Greater Boston Food Bank & Feeding American)</p>
+	</div>
+
+
+
+<script src = 'script_scatter.js'></script>
+<script src="main.js"></script>
+</body>
+
+
+
+</html>

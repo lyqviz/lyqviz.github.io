@@ -1,0 +1,184 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+.photo {
+	width: 100%;
+}
+
+#top {
+	width: 100%;
+}
+
+.title {
+	width: 45%;
+	height: 500px;
+	margin-top: -40%;
+	margin-left: 50%;
+}
+
+#head {
+	font-family: 'Libre Baskerville', serif;
+	font-size: 50px;
+	color: white;
+}
+
+#intro {
+	margin-top: 10%;
+	font-size: 20px;
+	font-family: 'Crimson Text', serif;
+	color: white;
+}
+
+.box1 {
+	width: 100%;
+}
+
+#one-t {
+	width: 80%;
+	margin-left: 10%;
+	margin-top: 5%;
+	font-family: 'Libre Baskerville', serif;
+	font-size: 25px;
+}
+
+#one-p {
+	width: 30%;
+	margin-left: 10%;
+	font-family: 'Crimson Text', serif;
+	font-size: 15px;
+}
+
+#us {
+	width: 60%;
+	margin-left: 20%;
+}
+
+#us img {
+	width: 100%;
+}
+
+#two-t {
+	width: 80%;
+	margin-left: 10%;
+	margin-top: 5%;
+	font-family: 'Libre Baskerville', serif;
+	font-size: 25px;
+}
+
+#two-p {
+	width: 30%;
+	margin-left: 10%;
+	font-family: 'Crimson Text', serif;
+	font-size: 15px;
+}
+
+#ma {
+	width: 50%;
+	margin-left: 25%;
+		margin-top: 3%;
+}
+
+#third-t {
+	width: 80%;
+	margin-left: 10%;
+	margin-top: 5%;
+	font-family: 'Libre Baskerville', serif;
+	font-size: 25px;
+}
+
+#third-p {
+	width: 30%;
+	margin-left: 10%;
+	font-family: 'Crimson Text', serif;
+	font-size: 15px;
+}
+
+#asian {
+	width: 50%;
+	margin-left: 25%;
+	margin-top: 3%;
+}
+
+#four-p {
+	width: 30%;
+	margin-left: 10%;
+	font-family: 'Crimson Text', serif;
+	font-size: 15px;
+}
+
+#black {
+	width: 50%;
+	margin-left: 25%;
+}
+
+#hispanic {
+	width: 50%;
+	margin-left: 25%;
+}
+
+.box2 {
+	width: 100%;
+	height: initial;
+}
+
+.box3 {
+	width: 100%;
+	height: initial;
+}
+
+#four-t {
+	width: 80%;
+	margin-left: 10%;
+	margin-top: 5%;
+	margin-bottom: 5%;
+	font-family: 'Libre Baskerville', serif;
+	font-size: 25px;
+}
+
+
+#five-t {
+	width: 80%;
+	margin-left: 10%;
+	margin-top: 10px;
+    margin-bottom: 5%;
+	font-family: 'Libre Baskerville', serif;
+	font-size: 25px;
+}
+
+#five-p {
+	width: 70%;
+	margin-left: 10%;
+	font-family: 'Crimson Text', serif;
+	font-size: 15px;
+}
+
+
+.buttons {
+	margin-left: 10%;
+}
+
+.bottom {
+	background-color: #F7F7F7;
+	padding: 20px 0px;
+}
+
+#name {
+	width: 30%;
+	margin-left: 60%;
+	font-family: 'Crimson Text', serif;
+	font-size: 10px;
+	margin-bottom: 10px;
+}
+
+#dataname {
+	width: 30%;
+	margin-left: 60%;
+	font-family: 'Crimson Text', serif;
+	font-size: 10px;
+}
+
+
+
+
