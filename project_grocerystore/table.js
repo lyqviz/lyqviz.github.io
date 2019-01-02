@@ -18,9 +18,6 @@
                          .selectAll('th')
                          .data(titles).enter()
                          .append('th')
-                         //.attr("class", function (d) {
-                            //return "header-" + d.replace(" ", "-")
-                          //})
                          .append('tr')
                          .text(function (d) {
                             return d
@@ -53,18 +50,6 @@
                              d3.selectAll('th')
                                .style("border-top", "3px solid white")
 
-                            // d3.selectAll('.header-' + d.replace(" ", "-"))
-                              // .style("border-top", "3px solid #8759A4")
-
-                             //d3.selectAll('.data-' + d.replace(" ", "-"))
-                               //.style("background", "#8759A4")
-                               //.style("background", function(d){
-                                //return colorScale(d.value)
-                               //})
-                               //.style("color", "white")
-                               //.style("text-shadow", "0px 2px 10px black")
-                               //.style("border-bottom", "1px solid white")
-
 
                             }
 
@@ -75,9 +60,6 @@
       var rows = table.append('tbody').selectAll('tr')
                       .data(datapoints).enter()
                       .append('tr')
-
-      //format = d3.format(".2s")
-      //format = d3.format(".0%")
 
       rows.selectAll('td')
           .data(function (d) {
@@ -90,9 +72,6 @@
           .attr('data-th', function (d) {
           return d.name;
           })
-         // .attr('class', function (d) {
-           // return "data-" + d.name.replace(" ", "-")
-          //})
           .text(function (d) {
              // assign different formats for texts and numbers
              if (d.name === "County") {
@@ -100,7 +79,6 @@
              } 
              else {
                 return +d.value
-               // return format(+d.value)
              }
         })
 

@@ -12,7 +12,7 @@
         .append("g")
         .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
 
-  // Create your scales
+  // Create scales
   var xPositionScale = d3.scalePoint()
     .domain(['2015', '2016'])
     .range([0, width])
@@ -36,7 +36,7 @@
     })
     .await(ready)
 
-  // Import your data file using d3.queue()
+  // Import data file using d3.queue()
 
   function ready(error, datapoints) {
 

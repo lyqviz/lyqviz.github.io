@@ -3,7 +3,6 @@
     height = 450 - margin.top - margin.bottom,
     width = 1080 - margin.left - margin.right;
 
-  // What is this???
   var svg = d3.select("#chart-5")
         .append("svg")
         .attr("height", height + margin.top + margin.bottom)

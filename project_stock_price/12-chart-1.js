@@ -17,11 +17,10 @@
 
   var timeFormatter = d3.timeFormat("%b %d")
 
-  // Create your scales
+  // Create scales
   var xPositionScale = d3.scaleLinear().range([0, width])
   var yPositionScale = d3.scaleLinear().domain([90, 125]).range([height, 0])
 
-  // Create a d3.line function that uses your scales
   var line = d3.line()
     .x(function(d) {
       return xPositionScale(d.datetime)
@@ -41,17 +40,9 @@
 
   svg.call(tip)
 
-  // Now we read in our data
-  // with .defer, this time we're adding a THIRD argument
-  // instead of just.defer(d3.csv, "AAPL.csv")
-  // it does converting and cleaning of each data point
-  // as we read it in
   d3.queue()
     .defer(d3.csv, "data/AAPL.csv", function(d) {
-      // d.Date is a string to begin with, but we can
-      // imagine treating a date like a string doesn't
-      // work well. So instead we use parseTime (which we
-      // created up above) to turn it into a date.
+
       d.datetime = parseTime(d.Date);
       return d;
     })
@@ -65,7 +56,7 @@
 
     xPositionScale.domain([dateMin, dateMax])
 
-    // Draw your dots
+    // Draw dots
 
     svg.selectAll("circle")
       .data(datapoints)
@@ -90,7 +81,7 @@
       .on('mouseover', tip.show)
       .on('mouseout', tip.hide)
 
-    // Draw your single line
+    // Draw single line
     svg.append("path")
       .datum(datapoints)
       .attr("d", line)
@@ -106,7 +97,7 @@
       .attr("font-size", 22)
       .attr("font-weight", "bold")
 
-    // Add your axes
+    // Add axes
     var xAxis = d3.axisBottom(xPositionScale)
       .tickFormat(d3.timeFormat("%b %Y"))
       .ticks(5)

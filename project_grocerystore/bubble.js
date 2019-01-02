@@ -44,7 +44,7 @@
 
       }))
       .force("manybody", d3.forceManyBody().strength(-1.8))
-      .force("collide", d3.forceCollide(2)) //A froce from the middle to avoid overlap
+      .force("collide", d3.forceCollide(2)) 
   
   d3.queue()
     .defer(d3.csv, "failstores.csv")
