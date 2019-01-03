@@ -4,7 +4,7 @@ body {
 }
 
 #container {
-  width: 1200px;
+  width: 1150px;
   color: #333;
   margin: 0 auto;
   padding-bottom: 50px;
@@ -165,7 +165,7 @@ ul {
 li {
     display: inline-block;
     width: 350px;
-    margin: 40px 40px 0 0;
+    margin: 50px 42px 0 0;
     padding: 0;
     font-size: 18px;
     line-height: 2.0;
