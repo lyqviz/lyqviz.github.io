@@ -1,0 +1,182 @@
+body {
+  background: #fff;
+  font: 400 0.625em "Open Sans", sans-serif;
+  color: #333;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  -webkit-print-color-adjust: exact;
+}
+
+#container {
+  max-width: 100%;
+  text-align: center;
+  margin: auto;
+}
+
+#main {
+  margin: auto;
+  padding: 30px 0;
+  max-width: 75%;
+}
+
+#main p {
+  max-width: 70%;
+  margin: auto;
+  text-align: left;
+}
+
+.click {
+  text-align: center;
+}
+
+.click p{
+  text-align: center !important;
+  font-size: 1.7em;
+}
+
+#chart plot{
+  margin: 0px 0 70px;
+}
+
+plot { 
+  display: block;
+  margin: 80px 0 30px;
+  text-align: center;
+}
+
+#title {
+  max-width: 65%;
+  text-align: center;
+  margin: auto;
+}
+
+h1 {
+  font-size: 3.5em;
+  text-align: center;
+  font-family: 'Bree Serif', serif;
+}
+
+h2 {
+  font-size: 2.4em;
+  font-weight: 700;
+}
+
+p.story {
+   font-size: 1.7em;
+   line-height: 1.8em;
+   padding-bottom: 25px;
+}
+
+p.chart_title {
+  padding: 20px 0 20px;
+  font-size: 1.7em;
+  line-height: 2em;
+  text-align: center !important;
+}
+
+p.explain {
+  padding: 0px;
+  font-size: 1.2em;
+  text-align: center !important;
+  color: black;
+  font-style: italic;
+}
+
+p.teaser {
+  font-weight: 700;
+}
+
+p.by {
+  padding-bottom: 30px;
+  border-bottom: 1px dotted #ddd;
+  text-align: center;
+  font-size: 1.3em;
+  color: #326891;
+  font-family: georgia italic;
+  width: 100%;
+  padding: 5px 0 20px;
+}
+
+p.asterisk {
+  font-style: italic;
+  font-size: 1.1em;
+  color: #A9A9A9;
+  margin: 5px 0px 5px 5px;
+  line-height: 2em;
+}
+
+.d3-tip {
+  padding: 12px;
+  background: #fff;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #08519c;
+  color: #08519c;
+  border-radius: 2px;
+  pointer-events: none;
+  text-align: center;
+  line-height: 1.5em;
+}
+
+.annotation {
+  font-size: 11px;
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  fill: #9E4B6C;
+  font-weight: bold;
+}
+
+.annotation_circle {
+  stroke-dasharray: 2;
+  stroke-width: 1.2;
+  fill: none;
+  stroke: #08519c;
+}
+
+.annotation_line {
+  stroke-width: 1;
+  stroke: #08519c;
+}
+
+.arrowHead {
+  fill: #08519c;
+}
+
+button:active, button:focus {
+  background: #08519c;
+  color: white;
+  outline: none;
+  border-radius: 4px;
+  border-width: 0.1px;
+}
+
+img {
+  width: 95%;
+  display: block;
+  margin: 70px 100px 70px 0;
+}
+
+a:link, a:visited {
+  color: #08519c;
+  text-decoration: none;
+}
+
+a:focus, a:hover, a:active {
+  text-decoration: underline;
+}
+
+strong {
+  font-weight: 700;
+}
+
+strong.hover {
+  color: #08519c;
+}
+
+.x-axis .tick line{ 
+  visibility:hidden;
+}
+
+.radient_bar {
+  opacity: 1 !important;
+}
+
