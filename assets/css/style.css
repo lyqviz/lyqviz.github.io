@@ -4,8 +4,6 @@ body {
 }
 
 #container {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
   width: 1150px;
   color: #333;
   margin: 0 auto;
