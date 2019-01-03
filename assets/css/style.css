@@ -137,7 +137,7 @@ p.italic {
 }
 
 .flex-item {
-    width: 100px;
+    width: 33.33%;
     height: 200px;
     border: 1px black solid;
     background: #369;
