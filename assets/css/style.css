@@ -124,7 +124,7 @@ p.italic {
 
 #portfolio {
     display: inline-block;
-    width: 300px;
+    width: 33.33%;
     margin-top: 50px;
 }
 
@@ -137,7 +137,7 @@ p.italic {
 
 
 ul {
-    width: 1200px;
+    width: 33.33%;
     display: inline-block;
     margin: 50px 0 0 0;
     padding: 0;
