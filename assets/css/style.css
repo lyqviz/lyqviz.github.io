@@ -117,7 +117,6 @@ p.italic {
 }
 
 #portfolio {
-    max-width: none;
     width: 100%;
     display: inline-block;  
     margin-top: 50px;
@@ -130,27 +129,6 @@ p.italic {
 
 }
 
-#flex-container {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    width: 1150px;
-    border: 1px black solid;
-    margin: 0 auto;
-}
-
-.flex-item {
-    width: 33.33%;
-    height: 200px;
-    border: 1px black solid;
-    background: #369;
-}
-.page-header {
-    font-family: 'Playfair Display', serif;
-    font-size: 24px;
-    font-weight: 700;
-    border-bottom: none;
-}
 
 ul {
     width: 100%;
