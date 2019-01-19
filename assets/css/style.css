@@ -122,6 +122,8 @@ p.italic {
 }
 
 #portfolio {
+    display: flex;
+    justify-content: center;
     width: 300px;
     margin-top: 50px;
 }
