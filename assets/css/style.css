@@ -124,7 +124,7 @@ p.italic {
 
 #portfolio {
     display: inline-block;
-    width: 350px;
+    width: 100%;
     margin-top: 50px;
 }
 
