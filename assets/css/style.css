@@ -151,8 +151,8 @@ ul {
 }
 
 li {
-    display: inline-block;
-    width: 350px;
+    float: left;
+    width: 33.33%;
     margin: 50px 42px 0 0;
     padding: 0;
     font-size: 18px;
