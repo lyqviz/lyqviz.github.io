@@ -1,6 +1,7 @@
 body {
     height: 100%;
     width:100%;
+    display: inline-block;
 }
 
 .flex-container {
@@ -122,8 +123,7 @@ p.italic {
 }
 
 #portfolio {
-    display: flex;
-    justify-content: center;
+    display: inline-block;
     width: 300px;
     margin-top: 50px;
 }
