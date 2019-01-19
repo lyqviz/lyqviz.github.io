@@ -145,7 +145,7 @@ ul {
 
 .row{
     margin: 0 auto;
-    display: block;
+    display: inline-block;
     max-width: 1200px;
     padding-left: 50px;
     padding-right: 50px    
