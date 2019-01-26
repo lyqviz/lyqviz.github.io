@@ -16,6 +16,20 @@ body {
   position: relative;
 }
 
+
+#name {
+  font-family: 'Avenir Next Bold', Avenir;
+/*    font-size: 700;*/
+    color: #4D4D4D;
+  font-size: 36px;
+  letter-spacing: 3px;
+}
+
+.name-el {
+  display: inline-block;
+  vertical-align: middle; 
+}
+
 #app {
   width: 100%;
 }
