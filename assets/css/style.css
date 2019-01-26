@@ -16,6 +16,12 @@ body {
   position: relative;
 }
 
+.menu_home_link {
+  font-size: 1.75em;
+  color: #191919;
+  transition: color ease-in-out 0.1s;
+}
+
 .menu_home_button {
   display: inline-block;
   margin: 30px 30px 0px 0px;
