@@ -188,14 +188,6 @@ a:focus, a:hover, a:active {
   border-bottom: none;
 }
 
-a.no_undersocre:link, a.no_undersocre:visited {
-  border-bottom: none !important;
-}
-
-a.no_undersocre:focus, a.no_undersocre:hover, a.no_undersocre:active {
-  background-color: #ffffff !important;
-  border-bottom: 2px solid #fec44f !important;
-}
 
 #buttons {
   top: 195px;
