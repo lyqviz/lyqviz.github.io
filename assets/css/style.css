@@ -133,6 +133,22 @@ body {
   border-bottom: solid 4px #227f7f;
 }
 
+.logo_img {
+    width: 20px;
+    height: auto;
+    margin: 0em 0.25em;
+    padding-bottom: 0.25em;
+    border-bottom: 2px solid #fff;
+    max-width: 100%;
+    opacity: 0.8;
+    vertical-align: middle;
+}
+
+.logo_img:hover {
+    border-bottom: 2px solid #227f7f;
+    max-width: 100%;
+    opacity: 1;
+}
 
 #profile_pic {
     width: 130px;
