@@ -76,15 +76,15 @@ body {
 
 .menu_link_active {
   color: #191919;
-  border-bottom: solid 4px #227f7f;
+  border-bottom: solid 4px #225ea8;
 }
 
 .menu_home_link:hover {
-  color: #227f7f;
+  color: #225ea8;
 }
 
 .menu_link:hover {
-  border-bottom: solid 4px #227f7f;
+  border-bottom: solid 4px #225ea8;
   transition: border-bottom ease-in-out 0.1s;
 }
 
@@ -104,7 +104,7 @@ body {
 }
 
 .sample_link:hover .sample_title_border {
-  border-bottom: solid 4px #227f7f;
+  border-bottom: solid 4px #225ea8;
 }
 
 .sample_link:hover .sample_image {
@@ -152,12 +152,12 @@ body {
   font-weight: 700;
   color: inherit;
   text-decoration: none;
-  border-bottom: solid 2px #7fcdbb;
+  border-bottom: solid 2px #225ea8;
   transition: border-bottom ease-in-out 0.1s;
 }
 
 .sample_text_link:hover {
-  border-bottom: solid 4px #7fcdbb;
+  border-bottom: solid 4px #225ea8;
 }
 
 .sample_skills {
@@ -190,7 +190,7 @@ body {
 
 .intro_link {
   color: #191919;
-  border-bottom: solid 2px #7fcdbb;
+  border-bottom: solid 2px #225ea8;
   transition: border-bottom ease-in-out 0.1s;
   text-decoration: none;
   font-weight: 700;
@@ -198,7 +198,7 @@ body {
 }
 
 .intro_link:hover {
-  border-bottom: solid 4px #7fcdbb;
+  border-bottom: solid 4px #225ea8;
 }
 
 .logo_img {
@@ -213,7 +213,7 @@ body {
 }
 
 .logo_img:hover {
-    border-bottom: 2px solid #7fcdbb;
+    border-bottom: 2px solid #225ea8;
     max-width: 100%;
     opacity: 1;
 }
