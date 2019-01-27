@@ -23,6 +23,7 @@ body {
     color: #4D4D4D;
   font-size: 36px;
   letter-spacing: 3px;
+  margin-left: 100px;
 }
 
 .name-el {
@@ -125,7 +126,7 @@ body {
 .intro {
   display: inline-block;
   width: 100%;
-  margin-left: 50px;
+  margin-left: 100px;
 }
 
 .intro_text {
