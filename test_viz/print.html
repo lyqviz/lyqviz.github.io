@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<head>
+  <meta charset="utf-8" />
+  <title>film festivals</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css"/>
+  <link href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.8.1/themes/base/jquery-ui.css" rel="stylesheet" type="text/css"/>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.8.11/jquery-ui.min.js"></script>
+
+</head>
+
+<style>
+.sticky {
+  position: -webkit-sticky;
+  position: -moz-sticky;
+  position: -ms-sticky;
+  position: -o-sticky;
+  position: sticky;
+  height: fit-content;
+  top: 5%;
+}
+</style>
+
+<body class ='dark-theme'>
+  <div class="container">
+    <div class="row">
+      <div class="offset-2 col-sm-8 mt-5 mb-5">
+        <h1>A Visual Exploration of Film Festivals</h1>
+        <p class="by" align="center">by Yuqing</a> &nbsp;|&nbsp; March, 2019</p>
+        <p>This data visualization looks at which countries have won the most top prizes at film festivals. Some film festivals have multiple winners in certain years, while some do not hold competitions every year.</p>
+        <p>According to the FIAPF (International Federation of Film Producers Associations), there are 15 accredited Competitive Feature Film Festivals. 9 of them are from <span style="color: #ff9999; font-weight: bold">Europe</span>, 3 film festivals are from <span style="color: #cb181d; font-weight: bold">Asia</span>, the rest are from <span style="color: #8BCBC8; font-weight: bold">North America</span>, <span style="color: #8c96c6; font-weight: bold">South America</span> and <span style="color: #33cc33; font-weight: bold">Africa</span>.</p>
+    </div>
+  </div>
+
+</div>
+
+<!-- Create a div where the graph will take place -->
+<div id="main"> 
+<div class="row mt-5 mb-5">
+  <div class="offset-2 col-sm-8 mt-5 mb-5">
+    <h2>Almost 60% of films are from <span style="color: #ff9999; font-weight: bold">Europe</span></h2>
+    <p>Each circle represents individual movie, color is based on the continent, the size of circle means user ratings of this movie in IMDb, the larger size of circle sugguests the more well-known this film is. Hover to see details.</p> 
+    <p>There are almost 700 films from all these film festivals, nearly 60% are from Europe, the second largest number of films comes from Asia which is over 150, the number of films from North America is 85.</p>
+      <div id="chart1"></div>
+  </div>
+</div>
+</div>
+
+<div id="thr-main">
+<div class="row mt-5 mb-5">
+  <div class="offset-2 col-sm-8 mt-5 mb-5">
+    <h2>6 of top 10 most well-known films are from <span style="color: #8BCBC8; font-weight: bold">United States</span></h2>
+    <p>The top 10 most well-known films are dominated by ones from France and United States, the most well-known movie from Asia is a Japanese Animation called 'Spirited Away', which was awarded in the Berlin International Film Festivals.</p>
+    <div id="chart3"></div>
+  </div>
+</div>
+</div>
+
+<div id="sec-main">
+<div class="row mt-5 mb-5">
+  <div class="offset-2 col-sm-8 mt-5 mb-5">
+    <h2>Take a look at how audiences rate these films</h2>
+    <p>IMDb(Internet Movie Database) is the world's most popular and authoritative source for movie, TV and celebrity content. Users are also invited to rate any film on a scale of 1 to 10, and the totals are converted into a weighted mean-rating.</p>
+    <p>All films are grouped by each film festival, and ranked by the mean of IMDb score. The top 10 well-known movies are generally rated over 8.</p>
+    <div id="chart2"></div>
+  </div>
+</div>
+</div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/4.2.2/d3.min.js"></script>
+  <script src="d3-tip.js"></script>
+  <script src="bubble.js"></script>
+  <script src="scale_bubble.js"></script>
+  <script src="topbubble.js"></script>
+
+
+</html>
+
+
+
