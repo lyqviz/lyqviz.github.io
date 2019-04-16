@@ -154,7 +154,7 @@ function createBubbleChart() {
             .call(xAxis)
         inner_svg.append("text")
             .attr("class", "axis x-axis")
-            .attr("transform", "translate(" + (width/2) + " , " + (height/2) + ")")
+            .attr("transform", "translate(" + (width/2) + " , " + (height) + ")")
             .attr('dominant-baseline', 'hanging')
             .attr("dy", "1.5em")
             .style("text-anchor", "middle")
