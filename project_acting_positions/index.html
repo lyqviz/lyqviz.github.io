@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<head>
+  <meta charset="utf-8" />
+  <title>acting positions</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css"/>
+  <link href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.8.1/themes/base/jquery-ui.css" rel="stylesheet" type="text/css"/>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.8.11/jquery-ui.min.js"></script>
+
+</head>
+
+<body>
+  <style>
+      *{
+        box-sizing:border-box;
+      }
+      #container{
+        position:relative;
+        width:620px;
+        margin-left:auto;
+        margin-right:auto;
+      }
+      #chart1{
+        width:100%;
+        position:relative;
+      }
+
+      #legend {
+        font-family:'Arimo', sans-serif;
+        /*width:300px;*/
+        font-size:14px;
+        margin-bottom:10px;
+        position:relative;
+      }
+      .legend-line{
+        display:flex;
+        align-items:center;
+        margin-bottom:3px;
+        position:relative;
+      }
+      .info{
+        font-style:italic;
+      }
+      .level-div{
+        margin-bottom:20px;
+      }
+      .level-name{
+        font-family:'Arimo', sans-serif;
+        font-size:15px;
+        font-weight:300;
+        width:100%;
+        margin-bottom:5px;
+      }
+      .department-div{
+        display:flex;
+        align-items:center;
+        padding-top:5px;
+        padding-bottom:5px;
+      }
+      .department-label{
+        font-family:'Arimo', sans-serif;
+        font-weight:800;
+        font-size:14px;
+        margin-right:10px;
+      }
+
+      .nonacting-div-legend {
+        background-color:#7fcdbb;
+        position:relative;
+      }
+      .acting-div-legend{
+        background-color:#ffce00;
+        position:relative;
+      }
+
+      .acting-div-legend, .nonacting-div-legend{
+        width:12px;
+        height:12px;
+        border-radius:6px;
+        margin:1.5px;
+        position:relative;
+      }
+
+      .read-more{
+        font-family:'Arimo', sans-serif;
+        color:#1259a6;
+        font-weight:700;
+        text-decoration:none;
+      }
+      .bill-div:hover{
+        border-width:1px;
+        border-color:#000;
+        border-style:solid;
+      }
+      .footnote{
+        font-family:'Arimo', sans-serif;
+        /*width:300px;*/
+        font-size:14px;
+        margin-bottom:10px;
+      }
+    @media screen and (max-width: 620px) {
+      #container{
+        width:100%;
+      }
+      
+    }
+
+    </style>
+  
+
+<div class="container">
+  <div id='legend'>
+    <div class="legend-line"><div class="acting-div-legend"></div><div>= Leader Position in <strong>Acting</strong> Status</div></div>
+    <div class="legend-line"><div class="nonacting-div-legend"></div><div>= Leader Position in <strong>Non-Acting</strong> Status</div></div>
+    <div class="info"><i class="fa fa-mouse-pointer" aria-hidden="true"></i> Hover/Click circle for more information </div>
+  </div>
+
+  <div id="chart1">
+  </div>
+
+
+<svg width="1000" height="10">
+  <defs>
+    <marker
+      id="arrow"
+      markerUnits="strokeWidth"
+      markerWidth="12"
+      markerHeight="12"
+      viewBox="0 0 12 12"
+      refX="6"
+      refY="6"
+      orient="auto">
+      <path d="M2,2 L10,6 L2,10 L6,6 L2,2" style="fill: #737373;"></path>
+    </marker>
+  </defs>
+  
+<!-- <line x1="0" y1="0" x2="200" y2="50"  stroke="red" stroke-width="2" marker-end="url(#arrow)"/> -->
+
+<!-- <path d="M20,70 T80,100 T160,80 T200,90" fill="white" stroke="red" stroke-width="2" marker-start="url(#arrow)" marker-mid="url(#arrow)" marker-end="url(#arrow)"/> -->
+</svg>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/4.2.2/d3.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/d3-annotation/2.3.2/d3-annotation.independent.js"></script>
+  <script src="d3-tip.js"></script>
+  <script src="actingpositions.js"></script>
+
+</div>
+  </body>
+</html>
+
+
+
