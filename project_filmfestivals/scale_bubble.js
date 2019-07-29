@@ -90,7 +90,7 @@
       
     svg.append("g")
         .attr("class", "axis y-axis")
-        .attr("transform", "translate(0," + height + ")")
+        .attr("transform", 'translate(' + margin.left + ',' + margin.top +')')
         .call(yAxis)
         .select(".domain").remove()
 
@@ -100,7 +100,7 @@
       
     svg.append("g")
         .attr("class", "axis x-axis")
-        .attr("transform", "translate(0," + height + ")")
+        .attr("transform", 'translate(' + margin.left + ',' + margin.top +')')
         .call(xAxis)
         .select(".domain")
         .remove()
