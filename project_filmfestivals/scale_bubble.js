@@ -90,7 +90,7 @@
       
     svg.append("g")
         .attr("class", "axis y-axis")
-        .attr("transform", 'translate(' + margin.left + ',' + margin.top +')')
+        //.attr("transform", 'translate(' + margin.left + ',' + margin.top +')')
         .call(yAxis)
         .select(".domain").remove()
 
@@ -106,7 +106,7 @@
         .remove()
 
     svg.selectAll(".tick line")
-          .attr("stroke-dasharray", 1.5)
+          .attr("stroke-dasharray", 0.5)
           .attr('stroke', 'lightgrey') 
 
 
