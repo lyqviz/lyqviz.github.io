@@ -196,7 +196,7 @@ if(small_screen) {
       .attr("cx", function(d) {
             return xPositionScale(new Date(d.End_Date))})
       .attr("cy", function(d) { return yPositionScale(d.Department); })
-      .attr("r", 1)
+      .attr("r", 0)
       .attr('fill', function(d){ return scaleColor(d.status) })
       .attr('fill-opacity', 0.1)
 
