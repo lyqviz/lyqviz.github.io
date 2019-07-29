@@ -140,7 +140,7 @@ if(small_screen) {
       .attr("stroke-width", "1px")
       .attr("marker-end","url(#arrow)"); 
 
-    plot.selectAll('text')
+    /*plot.selectAll('text')
       .data(data)
       .enter()
       .append('text')
@@ -159,7 +159,7 @@ if(small_screen) {
         }
       })
       .attr('fill', '#525252')
-      //.attr('text-anchor', 'middle')
+      //.attr('text-anchor', 'middle')*/
 
     plot.selectAll("circles")
       .data(data)
