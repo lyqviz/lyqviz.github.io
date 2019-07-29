@@ -1,5 +1,5 @@
 let small_screen = document.documentElement.clientWidth < 600 ? true : false
-var margin = { top: 30, left: 80, right: 60, bottom: 50},
+var margin = { top: 30, left: 80, right: 160, bottom: 50},
       height = 1300 - margin.top - margin.bottom,
       width = 1100 - margin.left - margin.right;
 console.log(margin)
