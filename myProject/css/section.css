@@ -1,0 +1,496 @@
+
+#arrow{
+    position:fixed;
+    z-index: 10000;
+    margin-right: auto;
+    margin-left: auto;
+    width: 100%;
+    bottom: 0.5%;
+}
+
+#arrow2{
+    position:fixed;
+    z-index: 10000;
+    margin-right: auto;
+    margin-left: auto;
+    width: 100%;
+}
+
+#arrow-up {
+    width: 5%; 
+    height: 0; 
+    margin-top: 0.5%;
+    margin-left: auto;
+    margin-right: auto;
+    border-left: 35px solid transparent;
+    border-right: 35px solid transparent;
+    border-bottom: 25px solid rgba(84,84,84,0.6);
+}
+#arrow-up:hover{
+    opacity:0.6;
+    cursor:pointer;
+
+}
+#arrow-down:hover{
+    opacity:0.6;
+    cursor:pointer;
+}
+#arrow-down {
+    width: 5%; 
+    height: 0; 
+    margin-left: auto;
+    margin-right: auto;
+    border-left: 35px solid transparent;
+    border-right: 35px solid transparent;
+    
+    border-top: 25px solid rgba(51, 51, 153, 0.6);
+}
+
+
+#first{
+    background-color:#bbb;
+    width:100%;
+    height:700px;
+    
+	background-color: white;
+}
+#second{
+    background-color:#bbb;
+    width:100%;
+    height:700px;
+	background-color:white;
+    color:grey;
+}
+div#pic1{
+    background-image:url("../img/save-the-children-australia1.jpg") ;
+    width:100%;
+    height:500px;
+    background-color: black;
+    background-size: cover;
+    background-position: center;
+}
+#third{
+    background-color:#bbb;
+    width:100%;
+    height:500px;
+    border-bottom:2px solid #eee;
+	
+}
+#fourth{
+    background-color:#bbb;
+    width:100%;
+    height:700px;
+    border-bottom:2px solid #eee;
+	background-color: white;
+    color:grey;
+}
+
+#fifth{
+    background-color:#bbb;
+    width:100%;
+    height:800px;
+    border-bottom:2px solid #eee;
+    background-color: white;
+    background-image: url("../img/maxresdefault.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+#sixth{
+    background-color:#bbb;
+    width:100%;
+    height:800px;
+    border-bottom:2px solid #eee;
+    background-color: white;
+}
+
+#seventh{
+    background-color:#bbb;
+    width:100%;
+    height:700px;
+    border-bottom:2px solid #eee;
+    background-color: white;
+    background-image: url("../img/UNI88545.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+#eighth{
+    background-color:#bbb;
+    width:100%;
+    height:860px;
+    background-color: grey;
+    opacity:0.8;
+}
+
+#nine{
+    background-color:#bbb;
+    width:100%;
+    height:800px;
+    background-color: grey;
+    opacity:0.8;
+
+}
+
+div#morePic{
+    background-image:url("../img/GIRLS-EDUCATION.jpg") ;
+    width:100%;
+    height:800px;
+    background-color: black;
+    background-size: cover;
+    background-position: center;
+    position:absolute;
+}
+
+div#credit{
+    width:100%;
+    height:800px;
+    overflow:scroll;
+    position:absolute;
+    margin-top: 0%;
+}
+div#creditSub{
+    width:100%;
+    height:800px;
+    background-color: rgba(83,83,83,0.9);
+    margin-top:30%;
+    opacity:1;
+    padding-top: 1.8%;
+}
+
+
+
+
+p.text {
+	text-align: center;
+	margin-left: auto;
+    margin-right: auto;
+    width: 49%;
+    margin-top: 15%;
+    margin-bottom:15%;
+    font-size: 16px;
+    line-height: 1.6em;
+}
+p.textBottom{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 49%;
+    margin-top: 15%;
+    margin-bottom:15%;
+    font-size: 16px;
+    color:white;
+    opacity:0.8;
+    line-height: 1.6em;
+}
+p.textCredit{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 49%;
+    margin-top: 5%;
+    margin-bottom:12%;
+    font-size: 20px;
+    color:white;
+    opacity:0.8;
+    line-height: 1.6em;
+}
+p.intro{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    font-size: 16px;
+    opacity: 0.8;
+}
+p#U5MR{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 30px;
+    color:black;
+}
+div#U5MRTXT{
+    background-color: grey;
+}
+span.capital{
+    text-transform: uppercase;
+}
+p.scrollTXT{
+    ont-size: 16px;
+    opacity: 0.8;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+h1.title{
+	font-size: 50px;
+	text-align: center;
+	margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    margin-bottom: 1%;
+    margin-top: 5%;
+    color:white;
+    opacity:0.6;
+}
+
+h4.title{
+	font-size: 30px;
+	text-align: center;
+	margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    color:white;
+    opacity:0.4;
+}
+h4.title2{
+    font-size: 50px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 43%;
+    width: 50%;
+    color:white;
+    opacity:0.6;
+    margin-bottom: -28%;
+}
+
+h3.title{
+    font-size: 30px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3%;
+    width: 50%;
+    color:grey;
+    opacity:1;
+}
+
+h4.subtitle{
+    font-size: 16px;
+    margin-top: 3%;
+    color:#333399;
+    opacity:0.6;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    text-transform: uppercase;
+}
+
+
+.count{
+    font-size: 70px;
+    font-family: serif;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#number{
+    width:100%;
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#clearStyle{
+    position: relative;
+}
+
+.countries {
+    stroke: #fff;
+    stroke-width:0.5px;
+}
+
+.selected{
+  background-color: red;
+}
+
+svg path:hover {
+    opacity: 0.7;
+}
+
+#ATA {
+    display:none;
+}
+
+.legendLinear text {
+    font-size: 9px;
+}
+
+.label{
+    /*stroke:lightgrey;*/
+}
+
+.myTooltipMap {
+    position: absolute;
+    z-index: 10;
+}
+
+.myTooltipMap p {
+    font-family: Georgia,Palatino,serif;
+    background-color: rgba(255, 255, 255, .7);
+    padding: .2em .5em;
+    font-size: 14px;
+    line-height: 17px;
+    color: black;
+}
+
+.line{
+                fill:none;
+                
+                stroke-width:1px;
+                stroke-opacity:30%;
+            }
+path.unfocused{
+                fill:none;
+                stroke-opacity:10%;
+                stroke:grey;
+            }
+path.focused1{
+                fill:none;
+                stroke:#333399;
+                stroke-width:2px;
+                stroke-opacity:1;
+            }
+path.focused2{
+                fill:none;
+                stroke:orange;
+                stroke-width:2px;
+                stroke-opacity:1;
+                z-index: 1000;
+            }
+.axis text{
+                font-family: sans-serif;
+                font-size:9px;
+            }
+.lineLabel{
+                font-size:12px;
+            }
+
+.labelOnLine{
+                font-size:9px;
+                stroke:none;
+                fill:black;
+                
+            }
+
+.labelHighlighted{
+                font-size:9px;
+                stroke:none;
+                fill:black;
+                opacity: 1.0;
+            }
+
+/*#mapDiv{
+    background-color: grey;
+}*/
+
+svg#svgMap{
+    margin-left: 3%;
+    margin-top: 0%;
+}
+
+/*#lineDiv1{
+    background-color: blue;
+}
+#lineDiv2{
+    background-color: orange;
+}
+#barDiv1{
+    background-color: pink;
+}
+#barDiv2{
+    background-color: green;
+}*/
+
+
+.legendBar{
+    display: block;
+}
+
+#countrySelected{
+    padding-left: 0px;
+
+}
+
+h3#change{
+    margin-top: 4%;
+    text-transform: uppercase;
+}
+
+div#line path.domain{
+    display: none;
+}
+
+div#line g.y.axis line{
+    stroke:white;
+    opacity: 0.5;
+}
+
+div#line2 path.domain{
+    display: none;
+}
+
+div#line2 g.y.axis line{
+    stroke:white;
+    opacity: 0.5;
+}
+
+p.subtitle{
+    text-align: center;
+    margin-top: 4%;
+    margin-bottom: -1%
+}
+
+div#lineDiv1.col-md-6 {
+    padding-left: 1.5%;
+    padding-top: 1%;
+}
+
+div#barDiv1.col-md-6 {
+    padding-left: 1.5%;
+    padding-bottom: 0.5%;
+}
+
+div#bar1{
+    margin-top: -3%;
+}
+
+div#bar2{
+    margin-top: -3%;
+}
+
+div#barDiv2.col-md-6 {
+    padding-left: 1.5%;
+    padding-bottom: 0.5%;
+}
+
+div #onclick{
+    margin-top: 1%;
+    padding-right: 3%;
+    background-image:
+    linear-gradient(
+      to right, 
+      rgba(128, 128, 128,0.2),
+      rgba(128, 128, 128,0.2) 15%,
+      rgba(128, 128, 128,0.2) 15%,
+      rgba(128, 128, 128,0.2) 94%,
+      #ffffff 85%
+    );
+}
+
+div#lineDiv2.col-md-6 {
+    padding-left: 1.5%;
+    padding-top: 1%;
+}
+
+P.appendTXT{
+    text-align: center;
+    margin-bottom: 0%;
+}
+
+div#legends{
+    padding-top: 1%;
+}
+
+
+
