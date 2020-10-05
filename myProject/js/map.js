@@ -19,7 +19,7 @@ function draw_map(){
 
 	var countryById = d3.map();
 
-	queue()
+	d3.queue()
 		.defer(d3.json,"js/countries.json")
 		.defer(d3.csv,'data/dataMap.csv',typeAndSet)
 		.await(loaded);

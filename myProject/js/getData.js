@@ -61,7 +61,7 @@ function display (error,barData,barData2){
 
 
 
-queue()
+d3.queue()
   .defer(d3.csv, "data/data2.csv")
   .defer(d3.csv,"data/skilledAttendant.csv")
   .await(display);
