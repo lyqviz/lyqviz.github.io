@@ -1,0 +1,290 @@
+body {
+  background: #fff;
+  font: 400 0.625em "Open Sans", sans-serif;
+  color: #333;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  -webkit-print-color-adjust: exact;
+}
+
+#container {
+  max-width: 100%;
+  text-align: center;
+  margin: auto;
+}
+
+
+#main {
+  margin: auto;
+  max-width: 70%;
+  text-align: center;
+  padding-top: 50px;
+}
+
+#main p {
+  max-width: 70%;
+  margin: auto;
+  text-align: left;
+}
+
+.sticky {
+  position: -webkit-sticky;
+  position: -moz-sticky;
+  position: -ms-sticky;
+  position: -o-sticky;
+  position: sticky;
+  height: fit-content;
+  top: 5%;
+}
+
+.story {
+  margin: auto;
+  text-align: left;
+  padding-top: 35px;
+  max-width: 85%;
+}
+
+#part_2 {
+  margin: auto;
+  max-width: 50%
+}
+
+svg { 
+  display: block;
+  margin: auto;
+  padding: 20px 0;
+}
+
+#title {
+  max-width: 65%;
+  text-align: center;
+  margin: auto;
+}
+
+h1 {
+  font-size: 3.5em;
+  text-align: center;
+  font-family: 'Bree Serif', serif;
+}
+
+h2 {
+  font-size: 2.4em;
+  font-weight: 700;
+}
+
+p.story {
+   font-size: 1.7em;
+   line-height: 1.8em;
+   padding-bottom: 25px;
+}
+
+p.chart_title {
+  padding: 20px 0 20px;
+  font-size: 1.7em;
+  line-height: 2em;
+  text-align: center !important;
+}
+
+p.explain {
+  padding: 0px;
+  font-size: 1.2em;
+  text-align: center !important;
+  color: black;
+  font-style: italic;
+}
+
+p.teaser {
+  font-weight: 700;
+}
+
+p.by {
+  padding-bottom: 30px;
+  border-bottom: 1px dotted #ddd;
+  text-align: center;
+  font-size: 1.3em;
+  color: #326891;
+  font-family: georgia italic;
+  width: 100%;
+  padding: 5px 0 20px;
+}
+
+p.asterisk {
+  font-style: italic;
+  font-size: 1.1em;
+  color: #A9A9A9;
+  margin: 5px 0px 5px 5px;
+  line-height: 2em;
+}
+
+.d3-tip {
+  padding: 12px;
+  background: #fff;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #08519c;
+  color: #08519c;
+  border-radius: 2px;
+  pointer-events: none;
+  text-align: center;
+  line-height: 1.5em;
+}
+
+.annotation {
+  font-size: 11px;
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  fill: #9E4B6C;
+  font-weight: bold;
+}
+
+.annotation_circle {
+  stroke-dasharray: 2;
+  stroke-width: 1.2;
+  fill: none;
+  stroke: #9E4B6C;
+}
+
+.annotation_line {
+  stroke-width: 1;
+  stroke: #9E4B6C;
+}
+
+.arrowHead {
+  fill: #9E4B6C;
+}
+
+.box2 {
+  width: 100%;
+  height: initial;
+}
+
+button:active, button:focus {
+  background: #BD869D;
+  color: white;
+  outline: none;
+  border-radius: 4px;
+}
+
+img {
+  width: 70%;
+  display: block;
+  margin: auto;
+  padding: 20px 0 0 0;
+}
+
+a:link, a:visited {
+  color: #2789D4;
+  text-decoration: none;
+}
+
+a:focus, a:hover, a:active {
+  text-decoration: underline;
+}
+
+strong {
+  font-weight: 700;
+}
+
+.story {
+  margin: auto;
+  font-size: 15px;
+  text-align: left;
+  padding-top: 35px;
+  max-width: 45%;
+}
+
+#methodologies {
+  max-width: 50%;
+  text-align: center;
+  margin: auto;
+  padding-top: 80px;
+}
+
+#methodologies p.asterisk {
+  font-style: italic;
+  font-size: 0.8em;
+  color: #A9A9A9;
+  margin: 5px 0px 5px 5px;
+  line-height: 2em;
+}
+
+#methodologies ol {
+  font-style: italic;
+  font-size: 1em;
+  color: #A9A9A9;
+}
+
+#graphic {
+  padding-top: 60px;
+}
+
+
+#sections {
+  position: relative;
+  display: inline-block;
+  width: 250px;
+  top: 0px;
+  z-index: 90;
+  padding-bottom: 200px;
+}
+
+.step {
+  margin-bottom: 200px;
+  font-family: "TiemposTextWeb-Regular","Georgia";
+  font-size: 16px;
+  line-height: 23px;
+  color: #767678;
+}
+
+#sections .title {
+  font-family: Arial,Helvetica,"san-serif";
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 2px;
+  color: #262626;
+  line-height: 1.2em;
+}
+
+#extra-space {
+  height: 300px;
+}
+
+#vis {
+  display: inline-block;
+  position: fixed;
+  top: 60px;
+  z-index: 1;
+  margin-left: 0;
+  /* height: 600px; */
+  /* width: 600px; */
+  /* background-color: #ddd; */
+}
+
+#vis .title {
+  font-size:120px;
+  text-anchor: middle;
+}
+
+#vis .sub-title {
+  font-size:80px;
+  text-anchor: middle;
+}
+
+.axis path,
+.axis line {
+  fill: none;
+  stroke: #666;
+  shape-rendering: crispEdges;
+}
+
+.highlight {
+  fill: #008080;
+  font-weight: bold;
+}
+
+.cough-arrow {
+  stroke: #000;
+  stroke-width: 4px;
+
+}
+
+

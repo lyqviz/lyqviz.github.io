@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<head>
+  <meta charset="utf-8" />
+  <title>Engie area chart</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css"/>
+  <link href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.8.1/themes/base/jquery-ui.css" rel="stylesheet" type="text/css"/>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.8.11/jquery-ui.min.js"></script>
+
+</head>
+
+<body>
+  <style>
+      *{
+        box-sizing:border-box;
+      }
+      #container{
+        position:relative;
+        width:100%;
+        margin-left:auto;
+        margin-right:auto;
+      }
+      #chart1{
+        width:50%;
+        position:relative;
+      }
+
+      #chart2{
+        width:50%;
+        position:relative;
+      }
+
+      #legend {
+        font-family:'Arimo', sans-serif;
+        /*width:300px;*/
+        font-size:14px;
+        margin-bottom:10px;
+        position:relative;
+      }
+      .legend-line{
+        display:flex;
+        align-items:center;
+        margin-bottom:3px;
+        position:relative;
+      }
+      .info{
+        font-style:italic;
+      }
+      .level-div{
+        margin-bottom:20px;
+      }
+      .level-name{
+        font-family:'Arimo', sans-serif;
+        font-size:15px;
+        font-weight:300;
+        width:100%;
+        margin-bottom:5px;
+      }
+
+      .air-div-legend {
+        background-color:#FBDB3C;
+        position:relative;
+      }
+      .corporate-div-legend{
+        background-color:#6ED2B1;
+        position:relative;
+      }
+
+      .electricity-div-legend{
+        background-color:#007873;
+        position:relative;
+      }
+
+      .employee-div-legend{
+        background-color:#009DE9;
+        position:relative;
+      }
+
+      .fuel-div-legend{
+        background-color:#552382;
+        position:relative;
+      }
+
+      .air-div-legend, .corporate-div-legend, .electricity-div-legend,
+      .employee-div-legend, .fuel-div-legend{
+        width:12px;
+        height:12px;
+        border-radius:6px;
+        margin:1.5px;
+        position:relative;
+      }
+
+      .read-more{
+        font-family:'Arimo', sans-serif;
+        color:#1259a6;
+        font-weight:700;
+        text-decoration:none;
+      }
+      .bill-div:hover{
+        border-width:1px;
+        border-color:#000;
+        border-style:solid;
+      }
+      .footnote{
+        font-family:'Arimo', sans-serif;
+        /*width:300px;*/
+        font-size:14px;
+        margin-bottom:10px;
+      }
+    @media screen and (max-width: 620px) {
+      #container{
+        width:100%;
+      }
+      
+    }
+
+    </style>
+
+
+  <div id="container" style="width: 100%;">
+
+        <div id="chart1" style="float: left; width: 50%;"></div>
+        <div id="chart2" style="float: right; width: 50%;"></div>
+
+  </div>
+
+
+  
+<!-- <line x1="0" y1="0" x2="200" y2="50"  stroke="red" stroke-width="2" marker-end="url(#arrow)"/> -->
+
+<!-- <path d="M20,70 T80,100 T160,80 T200,90" fill="white" stroke="red" stroke-width="2" marker-start="url(#arrow)" marker-mid="url(#arrow)" marker-end="url(#arrow)"/> -->
+</svg>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/4.2.2/d3.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/d3-annotation/2.3.2/d3-annotation.independent.js"></script>
+  <script src="d3-tip.js"></script>
+  <script src="bar1.js"></script>
+  <script src="bar2.js"></script>
+
+</div>
+  </body>
+</html>
+
+
+
