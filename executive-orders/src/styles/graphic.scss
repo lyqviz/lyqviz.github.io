@@ -1,0 +1,257 @@
+// these are variables!
+// they help us keep our colors in check
+$fonts: 'Lab Grotesque', 'LabGrotesque', 'LabGrotIns', sans-serif;
+$fontsSerif: TiemposTextWeb, Georgia, Times, serif;
+
+// the same colors as our Illustrator swatch
+// https://tbimedia.s3.us-east-1.amazonaws.com/bistudios/_00/dev_edit/graphics/tools/colors.svg
+$black: #000;
+$offblack: #222;
+$gray4: #bcbcbc;
+$gray3: #d3d3d3;
+$gray2: #e8e8e8;
+$gray1: #f8f8f8;
+$white: #fff;
+
+$blue4: #00007c;
+$blue3: #007eff;
+$blue2: #2eb8ff;
+$blue1: #aef7ff;
+
+$red3: #930000;
+$red2: #e62828;
+$red1: #e62828;
+
+$green3: #00896a;
+$green2: #33ba98;
+$green1: #a0f2b8;
+
+$purple3: #5700d3;
+$purple2: #8d45ff;
+$purple1: #baa4ff;
+
+$yellow3: #e0b500;
+$yellow2: #ffdc31;
+$yellow1: #fff92e;
+
+$pink3: #bf005b;
+$pink2: #ff57a7;
+$pink1: #ffbdef;
+
+$orange3: #db5e00;
+$orange2: #f37d00;
+$orange1: #ffb0b0;
+
+//////////////////////////
+// TOOLTIPS            ///
+//////////////////////////
+#tooltip {
+  font-family: $fonts;
+  background: rgba(255, 255, 255, 0.9);
+  backdrop-filter: blur(5px);
+  border-radius: 0.3rem;
+  color: $offblack;
+  display: block;
+  font-size: 14px;
+  font-weight: 400;
+  padding: 0.2rem 0.4rem;
+  position: absolute;
+  white-space: pre;
+  max-width: 180px;
+  z-index: 300;
+  visibility: hidden;
+  border: 1px solid $offblack;
+  white-space: pre-wrap;
+
+  div {
+    margin: 0;
+    padding: 0;
+  }
+  .row > * {
+    display: inline-block;
+  }
+  .bold {
+    font-weight: 600;
+  }
+  p {
+    margin: 0;
+  }
+}
+
+.tick line {
+  visibility: hidden;
+}
+
+.lede {
+  text-align: center;
+}
+
+.lede p {
+  text-align: center !important;
+  font-size: 1.7em;
+}
+
+button:active,
+button:focus {
+  background: #000;
+  color: white;
+  outline: none;
+  border-radius: 4px;
+  border-width: 0.1px;
+}
+
+.filters {
+  //max-width: 500px;
+  text-align: center;
+  margin: 1.5rem auto 0;
+  div {
+    width: 154px;
+    display: inline-block;
+    padding: 0.25rem 0.75rem;
+    margin: 0.25rem;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    font-family: $fonts;
+    font-weight: 600;
+    font-size: 0.9rem;
+    background: lightgray;
+    border: 2px solid black;
+    color: white;
+    letter-spacing: 0.25px;
+  }
+}
+
+.close {
+  display: block;
+}
+
+// media query if you need it!
+
+//////////////////////////
+// START YOUR CSS HERE ///
+//////////////////////////
+#embed-graphic {
+  margin-top: 2rem;
+}
+
+rect:hover {
+  stroke: #000;
+  stroke-width: 2px;
+}
+
+#showAllHolder {
+  margin: 0 auto;
+  text-align: center;
+  #showAll {
+    margin: 0.5rem 0 0;
+    text-align: center;
+    visibility: hidden;
+    font-family: $fonts;
+    cursor: pointer;
+    font-weight: 400;
+    font-size: 0.9rem;
+  }
+}
+
+.y-axis .tick text {
+  font-size: 1.1rem;
+  fill: $gray4;
+  font-weight: 600;
+}
+
+.y-axis .tick:nth-child(4n + 1) text {
+  font-size: 1.25rem;
+  fill: black;
+}
+
+.x-axis .tick text {
+  font-size: 1.25rem;
+  font-weight: 600;
+  fill: black;
+}
+
+// annotation styles
+.annotation-connector path,
+.annotation-subject path,
+.annotation-note path.note-line {
+  stroke: #333;
+  stroke-width: 1.25px;
+}
+path.note-line {
+  visibility: collapse !important;
+  opacity: 0 !important;
+}
+.annotation-connector path.connector-arrow {
+  fill: #333;
+}
+.annotation-subject {
+  fill: none;
+}
+.annotation-connector path.connector {
+  stroke-width: 2;
+  stroke: $offblack;
+}
+.annotation-note-title tspan {
+  fill: #333;
+  font-size: 14px;
+}
+.annotation-note {
+  font-style: normal;
+  font-size: 14px;
+  font-family: 'Lab Grotesque', 'LabGrotesque', 'LabGrotIns', sans-serif;
+}
+.annotation-note-title {
+  font-weight: 600;
+  font-size: 14px;
+}
+.annotation-note-label {
+  font-weight: 400;
+  fill: #555;
+}
+
+rect.annotation-note-bg {
+  fill: none;
+}
+
+@media screen and (max-width: 525px) {
+  #tooltip {
+    max-width: 150px;
+  }
+  .filters {
+    div {
+      width: auto;
+      font-size: 0.8rem;
+    }
+  }
+  .x-axis .tick text {
+    font-size: 16px;
+    fill: black;
+    transform: rotate(-30deg);
+  }
+
+  .y-axis .tick text {
+    font-size: 16px;
+    fill: $gray4;
+  }
+
+  .y-axis .tick:nth-child(4n + 1) text {
+    font-size: 1rem;
+    fill: black;
+  }
+
+  .annotation-note-title tspan {
+    fill: #333;
+    font-size: 12px;
+  }
+
+  .annotation-note {
+    font-style: normal;
+    font-size: 10px;
+    font-family: $fonts;
+  }
+
+  .annotation-note-title {
+    font-weight: 600;
+    font-size: 10px;
+  }
+}

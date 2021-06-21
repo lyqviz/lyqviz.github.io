@@ -1,0 +1,1 @@
+aws s3 rm --recursive s3://tbimedia/bistudios/_00/dev_edit/graphics/2020/11/2020-11-executive-orders && aws s3 sync ./DEPLOY_ME/2020-11-executive-orders s3://tbimedia/bistudios/_00/dev_edit/graphics/2020/11/2020-11-executive-orders --acl private

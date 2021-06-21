@@ -1,0 +1,1 @@
+rm -rf .cache/ && parcel build src/index.hbs --out-dir docs --public-url . && rm -rf ./DEPLOY_ME && mkdir -p ./DEPLOY_ME && cp -R ./docs/ ./DEPLOY_ME/${PWD##*/} && cp embed_code.txt ./DEPLOY_ME/.

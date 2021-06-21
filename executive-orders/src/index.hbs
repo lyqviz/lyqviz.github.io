@@ -1,0 +1,81 @@
+---
+HED: Trump's executive orders, proclamations, and memoranda during his presidency
+SUBHED: Toggle the categories to explore
+LEGEND: 
+NOTES: 
+BYLINE: Yuqing Liu/Business Insider
+SOURCE: The Federal Register
+LOGO: bi
+---
+{{!-- ^^This is frontmatter. We store variables here that we'll use throughout this page^^ --}}
+{{!-- logo can be bi, i or false --}}
+
+<!-- Use the layout from src/html/layouts/default.hbs -->
+{{!< default}}
+
+{{!-- FOR THE PARENT PAGE (VIKING)--}}
+<!-- 
+<div id="graphic-embed"></div><script type="text/javascript" src="https://pym.nprapps.org/pym.v1.min.js"></script><script>var pymParent = pym.Parent('graphic-embed', 'https://tbimedia.s3.us-east-1.amazonaws.com/bistudios/_00/dev_edit/graphics/2020/interactives/parcel_test/index.html');</script> 
+-->
+
+<!-- This is the content on the page -->
+<div id='graphic-header'>
+
+	{{!-- HED goes here --}}
+	<h3 id='graphic-hed'>{{HED}}</h3>
+
+	{{!-- subheds are optional but encouraged --}}
+	{{!-- To include one, place your subhed above like this "A subhed is optional but encouraged"--}}
+	{{#if SUBHED}}
+		<h4 id='graphic-subhed'>{{SUBHED}}</h4>
+	{{/if}}
+
+	{{!-- If you're using a legend, you'll want to change out the Text and colors below to fit your graphic --}}
+	{{#if LEGEND}}
+		<div id='graphic-key'>
+			<div class='key-holder'><span class='key-circle' style='border: 1px solid #111;background-color: #f0efef'>&nbsp</span><p class='key-text'>Legend here</p></div>
+			<div class='key-holder'><span class='key-circle' style='background-color: #00007C'>&nbsp</span><p class='key-text'>Legend here</p></div>
+		</div>
+	{{/if}}
+</div>
+
+{{!-- the actual graphic/interactive will live here. We create it in the graphic.js file --}}
+
+<div class="filters">
+</div>
+<div id='showAllHolder'>
+	<h3 id='showAll'>Reset</h3>
+</div>
+
+<div id='embed-graphic'></div>
+
+{{!-- This holds the notes, sources and byline tags. --}}
+{{!-- If you don't have one of those, leave FALSE above and it won't show up here --}}
+<div id='graphic-footer-holder'>
+
+	{{!-- This is the catch-all for important graphic notes, such as what time zone the data is in and when it was last updated. This is optional. --}}
+	{{!-- Notes are to be formatted as sentences without an ending period --}}
+		{{#if NOTES}}
+			<p class='graphic-footer inline-footer'><span class='graphic-footer-bold'>Note:</span> {{NOTES}}</p>
+		{{/if}}
+
+		{{!-- Sources are to be formatted like this: Name; Name; Name --}}
+		{{#if SOURCE}}
+			<p class='graphic-footer graphic-source inline-footer'><span class='graphic-footer-bold'>Source:</span> {{SOURCE}}</p>
+		{{/if}}
+
+	<div class='byline-logo'>
+		<div class='left-hold'>
+			{{!-- Bylines are to be formatted like this: First Last/Brand--}}
+			{{#if BYLINE}}
+				<p class='graphic-footer inline-footer'><span class='graphic-footer-bold'>Chart: </span>{{BYLINE}}</p>
+			{{/if}}
+		</div>
+
+		{{!-- logo can be business insider, insider or false --}}
+		{{#if LOGO}}
+				<img class='logo' src='images/{{LOGO}}.svg'><img>
+		{{/if}}
+	</div>
+</div>
+

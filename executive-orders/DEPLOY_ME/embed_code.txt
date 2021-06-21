@@ -1,0 +1,1 @@
+<div id='graphic-embed'></div><script type=text/javascript src=https://pym.nprapps.org/pym.v1.min.js></script><script>var pymParent = pym.Parent('graphic-embed', 'https://tbimedia.s3.us-east-1.amazonaws.com/bistudios/_00/dev_edit/graphics/2020/11/2020-11-executive-orders/index.html');</script>
