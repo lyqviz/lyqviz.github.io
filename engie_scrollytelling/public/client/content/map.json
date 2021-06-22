@@ -1,0 +1,33 @@
+[
+	{
+		"id": "challenge",
+		"label": "Challenge",
+
+		"toc": false,
+
+		"style": [],
+		"theme": "",
+
+		"scenes": [
+			{
+				"style": [],
+				"theme": null,
+				"trigger": "",
+
+				"hero": {
+					"type": "custom",
+					"name": "pathways",
+					"data": "./client/data/Pathways_BAU_SBT.csv",
+					"data2": "./client/data/Pathways_EmissionReductions.csv",
+					"data3": "./client/data/Pathways_LeverCosts.csv",
+					"settings": {
+						"lever": ["Energy Efficiency", "Renewables", "Electrification", "Scope 3 Engagement", "Offsets"],
+						"legend": "slider"
+					}
+				},
+
+				"steps": []
+			}
+		]
+	}
+]

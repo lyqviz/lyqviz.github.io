@@ -1,0 +1,40 @@
+[
+	{
+		"id": "",
+		"label": "",
+
+		"toc": false,
+
+		"style": [],
+		"theme": "",
+
+		"scenes": [
+			{
+				"style": [],
+				"theme": null,
+				"trigger": null,
+
+				"hero": {
+					"type": "custom",
+					"name": "map",
+
+					"data": [
+						{
+							"name": "locations",
+							"type": "json",
+							"url": "./client/data/locations_parsed_efficiency.json"
+						}
+					],
+
+					"settings": {
+						"color": "#7B549D",
+						"title": "<em>Energy Efficiency Projects</em> by State",
+						"key": "./client/images/components/map/Map_Legend_Efficiency.svg"
+					}
+				},
+
+				"steps": []
+			}
+		]
+	}
+]

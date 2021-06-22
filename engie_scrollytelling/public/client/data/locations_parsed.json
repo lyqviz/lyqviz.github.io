@@ -1,0 +1,401 @@
+[
+  {
+    "title": "Muncie, IN",
+    "subtitle": "RECs",
+    "lat": 40.1936892,
+    "lng": -85.3865271,
+    "radius": 0.00830210756522587,
+    "properties": [
+      {
+        "display": "Achievable Emissions (CO2, in tons)",
+        "value": "1k"
+      },
+      {
+        "display": "Achievable Energy (MWh)",
+        "value": "1k"
+      },
+      {
+        "display": "Implementation Cost ($) ",
+        "value": "$1k"
+      }
+    ]
+  },
+  {
+    "title": "Muscatine, IA",
+    "subtitle": "VPPA",
+    "lat": 41.4776121,
+    "lng": -91.1210053,
+    "radius": 0.013860062126509632,
+    "properties": [
+      {
+        "display": "Achievable Emissions (CO2, in tons)",
+        "value": "1k"
+      },
+      {
+        "display": "Achievable Energy (MWh)",
+        "value": "2k"
+      },
+      {
+        "display": "Implementation Cost ($) ",
+        "value": "$3k"
+      }
+    ]
+  },
+  {
+    "title": "Bordentown, NJ",
+    "subtitle": "PPA - Onsite",
+    "lat": 40.1462213,
+    "lng": -74.7118264,
+    "radius": 0.022830795804371144,
+    "properties": [
+      {
+        "display": "Achievable Emissions (CO2, in tons)",
+        "value": "2k"
+      },
+      {
+        "display": "Achievable Energy (MWh)",
+        "value": "7k"
+      },
+      {
+        "display": "Implementation Cost ($) ",
+        "value": "$43k"
+      }
+    ]
+  },
+  {
+    "title": "Gastonia, NC",
+    "subtitle": "Green Tariff",
+    "lat": 35.2622158,
+    "lng": -81.1838794,
+    "radius": 0.028597696025853544,
+    "properties": [
+      {
+        "display": "Achievable Emissions (CO2, in tons)",
+        "value": "2k"
+      },
+      {
+        "display": "Achievable Energy (MWh)",
+        "value": "6k"
+      },
+      {
+        "display": "Implementation Cost ($) ",
+        "value": "$225k"
+      }
+    ]
+  },
+  {
+    "title": "Dyersburg, TN",
+    "subtitle": "RECs",
+    "lat": 36.0345159,
+    "lng": -89.3856281,
+    "radius": 0.030937887420078285,
+    "properties": [
+      {
+        "display": "Achievable Emissions (CO2, in tons)",
+        "value": "2k"
+      },
+      {
+        "display": "Achievable Energy (MWh)",
+        "value": "7k"
+      },
+      {
+        "display": "Implementation Cost ($) ",
+        "value": "$10k"
+      }
+    ]
+  },
+  {
+    "title": "Russellville, AR",
+    "subtitle": "VPPA",
+    "lat": 35.2784173,
+    "lng": -93.1337856,
+    "radius": 0.04268063352324172,
+    "properties": [
+      {
+        "display": "Achievable Emissions (CO2, in tons)",
+        "value": "3k"
+      },
+      {
+        "display": "Achievable Energy (MWh)",
+        "value": "6k"
+      },
+      {
+        "display": "Implementation Cost ($) ",
+        "value": "$-21k"
+      }
+    ]
+  },
+  {
+    "title": "Bloomington, IL",
+    "subtitle": "Green Retail",
+    "lat": 40.4797828,
+    "lng": -88.9939147,
+    "radius": 0.08825864686790455,
+    "properties": [
+      {
+        "display": "Achievable Emissions (CO2, in tons)",
+        "value": "6k"
+      },
+      {
+        "display": "Achievable Energy (MWh)",
+        "value": "17k"
+      },
+      {
+        "display": "Implementation Cost ($) ",
+        "value": "$854k"
+      }
+    ]
+  },
+  {
+    "title": "Griffin, GA",
+    "subtitle": "Green Tariff",
+    "lat": 33.2467807,
+    "lng": -84.2640904,
+    "radius": 0.09466631378066277,
+    "properties": [
+      {
+        "display": "Achievable Emissions (CO2, in tons)",
+        "value": "7k"
+      },
+      {
+        "display": "Achievable Energy (MWh)",
+        "value": "16k"
+      },
+      {
+        "display": "Implementation Cost ($) ",
+        "value": "$563k"
+      }
+    ]
+  },
+  {
+    "title": "Abilene, TX",
+    "subtitle": "Green Retail",
+    "lat": 32.44645,
+    "lng": -99.7475905,
+    "radius": 0.11065762164119851,
+    "properties": [
+      {
+        "display": "Achievable Emissions (CO2, in tons)",
+        "value": "8k"
+      },
+      {
+        "display": "Achievable Energy (MWh)",
+        "value": "18k"
+      },
+      {
+        "display": "Implementation Cost ($) ",
+        "value": "$583k"
+      }
+    ]
+  },
+  {
+    "title": "Oxford, NC",
+    "subtitle": "Green Tariff",
+    "lat": 36.3107004,
+    "lng": -78.5908345,
+    "radius": 0.12783295490952654,
+    "properties": [
+      {
+        "display": "Achievable Emissions (CO2, in tons)",
+        "value": "9k"
+      },
+      {
+        "display": "Achievable Energy (MWh)",
+        "value": "25k"
+      },
+      {
+        "display": "Implementation Cost ($) ",
+        "value": "$1007k"
+      }
+    ]
+  },
+  {
+    "title": "Williamsburg, KY",
+    "subtitle": "VPPA",
+    "lat": 36.7434169,
+    "lng": -84.1596561,
+    "radius": 0.17481786903286017,
+    "properties": [
+      {
+        "display": "Achievable Emissions (CO2, in tons)",
+        "value": "13k"
+      },
+      {
+        "display": "Achievable Energy (MWh)",
+        "value": "15k"
+      },
+      {
+        "display": "Implementation Cost ($) ",
+        "value": "$-57k"
+      }
+    ]
+  },
+  {
+    "title": "Aiken, SC",
+    "subtitle": "Green Tariff",
+    "lat": 33.5598586,
+    "lng": -81.721952,
+    "radius": 0.2715457799941495,
+    "properties": [
+      {
+        "display": "Achievable Emissions (CO2, in tons)",
+        "value": "19k"
+      },
+      {
+        "display": "Achievable Energy (MWh)",
+        "value": "68k"
+      },
+      {
+        "display": "Implementation Cost ($) ",
+        "value": "$2233k"
+      }
+    ]
+  },
+  {
+    "title": "Kings Mountain, NC",
+    "subtitle": "Green Tariff",
+    "lat": 35.2450607,
+    "lng": -81.3410516,
+    "radius": 0.3657802727437351,
+    "properties": [
+      {
+        "display": "Achievable Emissions (CO2, in tons)",
+        "value": "26k"
+      },
+      {
+        "display": "Achievable Energy (MWh)",
+        "value": "72k"
+      },
+      {
+        "display": "Implementation Cost ($) ",
+        "value": "$2880k"
+      }
+    ]
+  },
+  {
+    "title": "Lake Charles, LA",
+    "subtitle": "VPPA",
+    "lat": 30.2265949,
+    "lng": -93.2173759,
+    "radius": 0.38544902422376687,
+    "properties": [
+      {
+        "display": "Achievable Emissions (CO2, in tons)",
+        "value": "28k"
+      },
+      {
+        "display": "Achievable Energy (MWh)",
+        "value": "73k"
+      },
+      {
+        "display": "Implementation Cost ($) ",
+        "value": "$109k"
+      }
+    ]
+  },
+  {
+    "title": "LaVergne, TN",
+    "subtitle": "RECs",
+    "lat": 35.9978466,
+    "lng": -86.5949616,
+    "radius": 0.5955229909874772,
+    "properties": [
+      {
+        "display": "Achievable Emissions (CO2, in tons)",
+        "value": "43k"
+      },
+      {
+        "display": "Achievable Energy (MWh)",
+        "value": "126k"
+      },
+      {
+        "display": "Implementation Cost ($) ",
+        "value": "$198k"
+      }
+    ]
+  },
+  {
+    "title": "Des Moines, IA",
+    "subtitle": "VPPA",
+    "lat": 41.5910323,
+    "lng": -93.6046655,
+    "radius": 0.64416554068172,
+    "properties": [
+      {
+        "display": "Achievable Emissions (CO2, in tons)",
+        "value": "46k"
+      },
+      {
+        "display": "Achievable Energy (MWh)",
+        "value": "95k"
+      },
+      {
+        "display": "Implementation Cost ($) ",
+        "value": "$142k"
+      }
+    ]
+  },
+  {
+    "title": "Warren County, TN",
+    "subtitle": "RECs",
+    "lat": 35.6889753,
+    "lng": -85.7796626,
+    "radius": 0.7166557550599674,
+    "properties": [
+      {
+        "display": "Achievable Emissions (CO2, in tons)",
+        "value": "51k"
+      },
+      {
+        "display": "Achievable Energy (MWh)",
+        "value": "152k"
+      },
+      {
+        "display": "Implementation Cost ($) ",
+        "value": "$239k"
+      }
+    ]
+  },
+  {
+    "title": "Wilson, NC",
+    "subtitle": "Green Tariff",
+    "lat": 35.7212689,
+    "lng": -77.9155395,
+    "radius": 0.9035646129629887,
+    "properties": [
+      {
+        "display": "Achievable Emissions (CO2, in tons)",
+        "value": "65k"
+      },
+      {
+        "display": "Achievable Energy (MWh)",
+        "value": "178k"
+      },
+      {
+        "display": "Implementation Cost ($) ",
+        "value": "$7115k"
+      }
+    ]
+  },
+  {
+    "title": "Aiken, SC",
+    "subtitle": "Green Tariff",
+    "lat": 33.5598586,
+    "lng": -81.721952,
+    "radius": 1,
+    "properties": [
+      {
+        "display": "Achievable Emissions (CO2, in tons)",
+        "value": "72k"
+      },
+      {
+        "display": "Achievable Energy (MWh)",
+        "value": "249k"
+      },
+      {
+        "display": "Implementation Cost ($) ",
+        "value": "$8225k"
+      }
+    ]
+  }
+]

@@ -1,0 +1,401 @@
+[
+	{
+		"title": "Muncie, IN",
+		"subtitle": "3 Identified Projects",
+		"lat": 40.1936892,
+		"lng": -85.3865271,
+		"radius": 0.00330210756522587,
+		"properties": [
+			{
+				"display": "Emission Reduction (CO2, in Tons)",
+				"value": "2.41k"
+			},
+			{
+				"display": "Energy Savings (MWh)",
+				"value": "982"
+			},
+			{
+				"display": "Cost Savings ($)  ",
+				"value": "$164k"
+			}
+		]
+	},
+	{
+		"title": "Muscatine, IA",
+		"subtitle": "1 Identified Projects",
+		"lat": 41.4776121,
+		"lng": -91.1210053,
+		"radius": 0.053860062126509632,
+		"properties": [
+			{
+				"display": "Emission Reduction (CO2, in Tons)",
+				"value": "4.77k"
+			},
+			{
+				"display": "Energy Savings (MWh)",
+				"value": "1.45k"
+			},
+			{
+				"display": "Cost Savings ($)  ",
+				"value": "$99k"
+			}
+		]
+	},
+	{
+		"title": "Bordentown, NJ",
+		"subtitle": "4 Identified Projects",
+		"lat": 40.1462213,
+		"lng": -74.7118264,
+		"radius": 0.012830795804371144,
+		"properties": [
+			{
+				"display": "Emission Reduction (CO2, in Tons)",
+				"value": "988"
+			},
+			{
+				"display": "Energy Savings (MWh)",
+				"value": "2.77k"
+			},
+			{
+				"display": "Cost Savings ($)  ",
+				"value": "$312k"
+			}
+		]
+	},
+	{
+		"title": "Gastonia, NC",
+		"subtitle": "5 Identified Projects",
+		"lat": 35.2622158,
+		"lng": -81.1838794,
+		"radius": 0.048597696025853544,
+		"properties": [
+			{
+				"display": "Emission Reduction (CO2, in Tons)",
+				"value": "9.04k"
+			},
+			{
+				"display": "Energy Savings (MWh)",
+				"value": "4.32k"
+			},
+			{
+				"display": "Cost Savings ($)  ",
+				"value": "$10k"
+			}
+		]
+	},
+	{
+		"title": "Dyersburg, TN",
+		"subtitle": "2 Identified Projects",
+		"lat": 36.0345159,
+		"lng": -89.3856281,
+		"radius": 0.380937887420078285,
+		"properties": [
+			{
+				"display": "Emission Reduction (CO2, in Tons)",
+				"value": "8.41k"
+			},
+			{
+				"display": "Energy Savings (MWh)",
+				"value": "10.4k"
+			},
+			{
+				"display": "Cost Savings ($)  ",
+				"value": "$90k"
+			}
+		]
+	},
+	{
+		"title": "Russellville, AR",
+		"subtitle": "3 Identified Projects",
+		"lat": 35.2784173,
+		"lng": -93.1337856,
+		"radius": 0.01268063352324172,
+		"properties": [
+			{
+				"display": "Emission Reduction (CO2, in Tons)",
+				"value": "1.41k"
+			},
+			{
+				"display": "Energy Savings (MWh)",
+				"value": "682"
+			},
+			{
+				"display": "Cost Savings ($)  ",
+				"value": "$10k"
+			}
+		]
+	},
+	{
+		"title": "Bloomington, IL",
+		"subtitle": "3 Identified Projects",
+		"lat": 40.4797828,
+		"lng": -88.9939147,
+		"radius": 0.08825864686790455,
+		"properties": [
+			{
+				"display": "Emission Reduction (CO2, in Tons)",
+				"value": "3.91k"
+			},
+			{
+				"display": "Energy Savings (MWh)",
+				"value": "4.31k"
+			},
+			{
+				"display": "Cost Savings ($)  ",
+				"value": "$12k"
+			}
+		]
+	},
+	{
+		"title": "Griffin, GA",
+		"subtitle": "2 Identified Projects",
+		"lat": 33.2467807,
+		"lng": -84.2640904,
+		"radius": 0.09466631378066277,
+		"properties": [
+			{
+				"display": "Emission Reduction (CO2, in Tons)",
+				"value": "2.41k"
+			},
+			{
+				"display": "Energy Savings (MWh)",
+				"value": "982"
+			},
+			{
+				"display": "Cost Savings ($)  ",
+				"value": "$14k"
+			}
+		]
+	},
+	{
+		"title": "Abilene, TX",
+		"subtitle": "4 Identified Projects",
+		"lat": 32.44645,
+		"lng": -99.7475905,
+		"radius": 0.11065762164119851,
+		"properties": [
+			{
+				"display": "Emission Reduction (CO2, in Tons)",
+				"value": "2.41k"
+			},
+			{
+				"display": "Energy Savings (MWh)",
+				"value": "982"
+			},
+			{
+				"display": "Cost Savings ($)  ",
+				"value": "$16k"
+			}
+		]
+	},
+	{
+		"title": "Oxford, NC",
+		"subtitle": "5 Identified Projects",
+		"lat": 36.3107004,
+		"lng": -78.5908345,
+		"radius": 0.12783295490952654,
+		"properties": [
+			{
+				"display": "Emission Reduction (CO2, in Tons)",
+				"value": "3.41k"
+			},
+			{
+				"display": "Energy Savings (MWh)",
+				"value": "3.45k"
+			},
+			{
+				"display": "Cost Savings ($)  ",
+				"value": "$114k"
+			}
+		]
+	},
+	{
+		"title": "Williamsburg, KY",
+		"subtitle": "5 Identified Projects",
+		"lat": 36.7434169,
+		"lng": -84.1596561,
+		"radius": 0.10481786903286017,
+		"properties": [
+			{
+				"display": "Emission Reduction (CO2, in Tons)",
+				"value": "10.22k"
+			},
+			{
+				"display": "Energy Savings (MWh)",
+				"value": "4.32k"
+			},
+			{
+				"display": "Cost Savings ($)  ",
+				"value": "$62k"
+			}
+		]
+	},
+	{
+		"title": "Aiken, SC",
+		"subtitle": "2 Identified Projects",
+		"lat": 33.5598586,
+		"lng": -81.721952,
+		"radius": 0.2715457799941495,
+		"properties": [
+			{
+				"display": "Emission Reduction (CO2, in Tons)",
+				"value": "13.41k"
+			},
+			{
+				"display": "Energy Savings (MWh)",
+				"value": "3.32k"
+			},
+			{
+				"display": "Cost Savings ($)  ",
+				"value": "$109k"
+			}
+		]
+	},
+	{
+		"title": "Kings Mountain, NC",
+		"subtitle": "3 Identified Projects",
+		"lat": 35.2450607,
+		"lng": -81.3410516,
+		"radius": 0.6657802727437351,
+		"properties": [
+			{
+				"display": "Emission Reduction (CO2, in Tons)",
+				"value": "16.21k"
+			},
+			{
+				"display": "Energy Savings (MWh)",
+				"value": "5.32k"
+			},
+			{
+				"display": "Cost Savings ($)  ",
+				"value": "$19k"
+			}
+		]
+	},
+	{
+		"title": "Lake Charles, LA",
+		"subtitle": "4 Identified Projects",
+		"lat": 30.2265949,
+		"lng": -93.2173759,
+		"radius": 0.25544902422376687,
+		"properties": [
+			{
+				"display": "Emission Reduction (CO2, in Tons)",
+				"value": "15.41k"
+			},
+			{
+				"display": "Energy Savings (MWh)",
+				"value": "5.32k"
+			},
+			{
+				"display": "Cost Savings ($)  ",
+				"value": "$133k"
+			}
+		]
+	},
+	{
+		"title": "LaVergne, TN",
+		"subtitle": "2 Identified Projects",
+		"lat": 35.9978466,
+		"lng": -86.5949616,
+		"radius": 0.2955229909874772,
+		"properties": [
+			{
+				"display": "Emission Reduction (CO2, in Tons)",
+				"value": "18.41k"
+			},
+			{
+				"display": "Energy Savings (MWh)",
+				"value": "7.32k"
+			},
+			{
+				"display": "Cost Savings ($)  ",
+				"value": "$180k"
+			}
+		]
+	},
+	{
+		"title": "Des Moines, IA",
+		"subtitle": "3 Identified Projects",
+		"lat": 41.5910323,
+		"lng": -93.6046655,
+		"radius": 0.84416554068172,
+		"properties": [
+			{
+				"display": "Emission Reduction (CO2, in Tons)",
+				"value": "20.41k"
+			},
+			{
+				"display": "Energy Savings (MWh)",
+				"value": "9.32k"
+			},
+			{
+				"display": "Cost Savings ($)  ",
+				"value": "$199k"
+			}
+		]
+	},
+	{
+		"title": "Warren County, TN",
+		"subtitle": "5 Identified Projects",
+		"lat": 35.6889753,
+		"lng": -85.7796626,
+		"radius": 0.9166557550599674,
+		"properties": [
+			{
+				"display": "Emission Reduction (CO2, in Tons)",
+				"value": "22.41k"
+			},
+			{
+				"display": "Energy Savings (MWh)",
+				"value": "9.52k"
+			},
+			{
+				"display": "Cost Savings ($)  ",
+				"value": "$239k"
+			}
+		]
+	},
+	{
+		"title": "Wilson, NC",
+		"subtitle": "2 Identified Projects",
+		"lat": 35.7212689,
+		"lng": -77.9155395,
+		"radius": 0.7035646129629887,
+		"properties": [
+			{
+				"display": "Emission Reduction (CO2, in Tons)",
+				"value": "18.41k"
+			},
+			{
+				"display": "Energy Savings (MWh)",
+				"value": "7.32k"
+			},
+			{
+				"display": "Cost Savings ($)  ",
+				"value": "$143k"
+			}
+		]
+	},
+	{
+		"title": "Aiken, SC",
+		"subtitle": "4 Identified Projects",
+		"lat": 33.5598586,
+		"lng": -81.721952,
+		"radius": 0.8,
+		"properties": [
+			{
+				"display": "Emission Reduction (CO2, in Tons)",
+				"value": "20.41k"
+			},
+			{
+				"display": "Energy Savings (MWh)",
+				"value": "9.32k"
+			},
+			{
+				"display": "Cost Savings ($)  ",
+				"value": "$199k"
+			}
+		]
+	}
+]

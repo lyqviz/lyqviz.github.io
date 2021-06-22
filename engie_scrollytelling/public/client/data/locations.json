@@ -1,0 +1,192 @@
+[
+	{
+		"facility": "Abilene, TX",
+		"coordinates": null,
+		"electricity": 17.798,
+		"emissions": 7.944,
+		"cost": "$ 582,873",
+		"solution": "Green Retail",
+		"lat": 32.44645,
+		"long": -99.7475905
+	},
+	{
+		"facility": "Bloomington, IL",
+		"coordinates": null,
+		"electricity": 17.077,
+		"emissions": 6.336,
+		"cost": "$ 853,869",
+		"solution": "Green Retail",
+		"lat": 40.4797828,
+		"long": -88.9939147
+	},
+	{
+		"facility": "Griffin, GA",
+		"coordinates": null,
+		"electricity": 16.077,
+		"emissions": 6.796,
+		"cost": "$ 562,688",
+		"solution": "Green Tariff",
+		"lat": 33.2467807,
+		"long": -84.2640904
+	},
+	{
+		"facility": "Aiken ORR, SC",
+		"coordinates": null,
+		"electricity": 67.681,
+		"emissions": 19.494,
+		"cost": "$ 2,233,486",
+		"solution": "Green Tariff",
+		"lat": 33.649101,
+		"long": -81.363841
+	},
+	{
+		"facility": "Aiken PSR, SC",
+		"coordinates": null,
+		"electricity": 249.241,
+		"emissions": 71.789,
+		"cost": "$ 8,224,953",
+		"solution": "Green Tariff",
+		"lat": 33.649101,
+		"long": -81.363841
+	},
+	{
+		"facility": "Gastonia, NC",
+		"coordinates": null,
+		"electricity": 5.628,
+		"emissions": 2.053,
+		"cost": "$ 225,139",
+		"solution": "Green Tariff",
+		"lat": 35.2622158,
+		"long": -81.1838794
+	},
+	{
+		"facility": "Kings Mountain, NC",
+		"coordinates": null,
+		"electricity": 72.003,
+		"emissions": 26.259,
+		"cost": "$ 2,880,101",
+		"solution": "Green Tariff",
+		"lat": 35.2450607,
+		"long": -81.3410516
+	},
+	{
+		"facility": "Oxford, NC",
+		"coordinates": null,
+		"electricity": 25.163,
+		"emissions": 9.177,
+		"cost": "$ 1,006,517",
+		"solution": "Green Tariff",
+		"lat": 36.3107004,
+		"long": -78.5908345
+	},
+	{
+		"facility": "Wilson, NC",
+		"coordinates": null,
+		"electricity": 177.867,
+		"emissions": 64.866,
+		"cost": "$ 7,114,698",
+		"solution": "Green Tariff",
+		"lat": 35.7212689,
+		"long": -77.9155395
+	},
+	{
+		"facility": "Warren County, TN",
+		"coordinates": null,
+		"electricity": 151.634,
+		"emissions": 51.448,
+		"cost": "$ 238,824",
+		"solution": "RECs",
+		"lat": 35.6889753,
+		"long": -85.7796626
+	},
+	{
+		"facility": "LaVergne, TN",
+		"coordinates": null,
+		"electricity": 126.005,
+		"emissions": 42.752,
+		"cost": "$ 198,458",
+		"solution": "RECs",
+		"lat": 35.9978466,
+		"long": -86.5949616
+	},
+	{
+		"facility": "Dyersburg, TN",
+		"coordinates": null,
+		"electricity": 6.547,
+		"emissions": 2.221,
+		"cost": "$ 10,312",
+		"solution": "RECs",
+		"lat": 36.0345159,
+		"long": -89.3856281
+	},
+	{
+		"facility": "Muncie, IN",
+		"coordinates": null,
+		"electricity": 752,
+		"emissions": 596,
+		"cost": "$ 1,184",
+		"solution": "RECs",
+		"lat": 40.1936892,
+		"long": -85.3865271
+	},
+	{
+		"facility": "Des Moines, IA",
+		"coordinates": null,
+		"electricity": 94.661,
+		"emissions": 46.244,
+		"cost": "$ 141,992",
+		"solution": "VPPA",
+		"lat": 41.5910323,
+		"long": -93.6046655
+	},
+	{
+		"facility": "Lake Charles, LA",
+		"coordinates": null,
+		"electricity": 72.711,
+		"emissions": 27.671,
+		"cost": "$ 109,066",
+		"solution": "VPPA",
+		"lat": 30.2265949,
+		"long": -93.2173759
+	},
+	{
+		"facility": "Muscatine, IA",
+		"coordinates": null,
+		"electricity": 2.037,
+		"emissions": 995,
+		"cost": "$ 3,056",
+		"solution": "VPPA",
+		"lat": 41.4776121,
+		"long": -91.1210053
+	},
+	{
+		"facility": "Russellville, AR",
+		"coordinates": null,
+		"electricity": 5.541,
+		"emissions": 3.064,
+		"cost": "$ (20,780)",
+		"solution": "VPPA",
+		"lat": 35.2784173,
+		"long": -93.1337856
+	},
+	{
+		"facility": "Williamsburg, KY",
+		"coordinates": null,
+		"electricity": 15.077,
+		"emissions": 12.55,
+		"cost": "$ (56,541)",
+		"solution": "VPPA",
+		"lat": 36.7434169,
+		"long": -84.1596561
+	},
+	{
+		"facility": "Bordentown, NJ",
+		"coordinates": null,
+		"electricity": 7.2,
+		"emissions": 1.639,
+		"cost": "$ 43,200",
+		"solution": "PPA - Onsite",
+		"lat": 40.1462213,
+		"long": -74.7118264
+	}
+]

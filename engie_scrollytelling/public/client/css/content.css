@@ -1,0 +1,164 @@
+.cover {
+	position: relative;
+	z-index: 8888;
+}
+
+.cover.intro::after {
+	position: absolute;
+	z-index: 9999;
+	bottom: 60px;
+	left: 50%;
+
+	width: 90px;
+	height: 90px;
+
+	content: '';
+	transform: translate(-50%, 0);
+
+	background-image: url('./client/images/down_arrow.svg');
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.cover.outro::after {
+	position: absolute;
+	z-index: 9999;
+	bottom: 60px;
+	left: 50%;
+
+	width: 90px;
+	height: 90px;
+
+	content: '';
+	transform: translate(-50%, 0) rotate(180deg);
+
+	background-image: url('./client/images/down_arrow.svg');
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.cover .section__spacer {
+	display: none;
+}
+
+.cover .section__title {
+	height: 100vh;
+
+	color: #fff;
+	background-color: #000;
+	background-image: url('./client/media/images/cover.jpg');
+	background-position: center;
+	background-size: cover;
+}
+
+.cover .section__title__headline {
+	max-width: 1320px;
+	margin: 0 auto;
+
+	font-size: 56px;
+	font-weight: 900;
+}
+
+.cover .section__title__subheadline {
+	margin: 0;
+
+	font-size: 24px;
+	font-weight: 700;
+	line-height: 26px;
+}
+
+/*  */
+
+.section__title {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+
+	width: 100%;
+	height: calc(100vh - 90px);
+
+	text-align: center;
+
+	background: #fff;
+}
+
+.section__title__section {
+	margin: 0 0 12px 0;
+
+	letter-spacing: 0.075em;
+	text-transform: uppercase;
+
+	color: var(--primary-color);
+
+	font-size: 18px;
+	font-weight: 900;
+	line-height: 21px;
+}
+
+.section__title__headline {
+	max-width: 648px;
+	margin: 0 auto;
+
+	font-size: 48px;
+	line-height: 64px;
+}
+
+/*  */
+
+.narrative {
+	max-width: 1368px;
+	margin: 0 auto 100vh auto;
+}
+
+.narrative .scene__step__content {
+	display: flex;
+	flex-direction: column;
+
+	margin: 0 24px;
+}
+
+.narrative p {
+	display: block;
+}
+
+.narrative .text {
+	align-self: flex-start;
+
+	max-width: 624px;
+	padding: 24px;
+
+	background: #fff;
+
+	font-size: 28px;
+	line-height: 40px;
+}
+
+.narrative .text a {
+	pointer-events: all;
+}
+
+.narrative .caption {
+	align-self: flex-end;
+
+	width: 424px;
+	max-width: 100%;
+	padding: 24px;
+
+	transition: opacity 0.25s;
+
+	opacity: 1;
+	color: var(--primary-color);
+	background: #fff;
+
+	font-size: 18px;
+	line-height: 26px;
+}
+
+.hideBackground .caption {
+	opacity: 0;
+}
+
+.custom__chart {
+	width: 100%;
+	height: 100%;
+}

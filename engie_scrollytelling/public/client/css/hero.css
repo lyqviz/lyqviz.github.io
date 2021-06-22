@@ -1,0 +1,8 @@
+.scene__hero {
+}
+
+.scene__hero__graphic {
+	max-width: 960px;
+	max-height: 600px;
+	margin: 120px auto 60px auto;
+}

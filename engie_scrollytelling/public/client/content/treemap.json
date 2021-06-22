@@ -1,0 +1,40 @@
+[
+	{
+		"id": "",
+		"label": "",
+
+		"toc": false,
+
+		"style": [],
+		"theme": "",
+
+		"scenes": [
+			{
+				"style": [],
+				"theme": null,
+				"trigger": null,
+
+				"hero": {
+					"type": "custom",
+					"name": "treemap",
+
+					"data": [
+						{
+							"name": "treemap",
+							"type": "csv",
+							"url": "./client/data/treedata.csv"
+						}
+					],
+
+					"settings": {
+						"title": "Total Emissions by <em>Business Activity</em> (CO2)",
+						"view": "bu",
+						"interactive": true
+					}
+				},
+
+				"steps": []
+			}
+		]
+	}
+]
