@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <style>
+    html{
+  font-family: "Helvetica";
+
+    }
+     * {
+      font-family: :'Helvetica';
+     }
+     p {
+      font-size: 0.85em;
+     }
+     svg {
+      background: #ffffff;
+     }
+
+     .country {
+       fill:  #E5E5E5;
+       cursor: pointer;
+     }
+
+   /*  .country:hover {
+          fill : hsla(0, 0%, 50%, .6);
+        }*/
+
+    /*.country.active {
+          fill: '#FEC920';
+        }*/
+   /* .country.active:hover {
+          fill: '#FEC920';
+        }*/
+
+
+    .label {
+     cursor: pointer;
+
+    }
+    .nametag {
+      line-height: 1;
+      padding: 6px;
+      background: rgba(0, 0, 0, 0.8);
+      color: #fff;
+      border-radius: 4px;
+      font-size: 12px;
+    }
+ 
+    /* Creates a small triangle extender for the tooltip */
+    .nametag:after {
+      box-sizing: border-box;
+      display: inline;
+      font-size: 10px;
+      width: 100%;
+      line-height: 1;
+      color: rgba(0, 0, 0, 0.8);
+      content: "\25BC";
+      position: absolute;
+      text-align: center;
+    }
+ 
+    /* Style northward tooltips specifically */
+    .nametag.n:after {
+      margin: -2px 0 0 0;
+      top: 100%;
+      left: 0;
+    }
+
+  #tooltip {
+  font-family: $fonts;
+  background: #000000;
+  width: 250px;
+  height: flexible;
+  position:absolute;
+  border-radius: 0.3rem;
+  color: white;
+  display: block;
+  font-size: 13px;
+  font-weight: 500;
+  padding: 0.2rem 0.4rem;
+  white-space: pre;
+  z-index: 300;
+  visibility: hidden;
+  border: 1px solid $offblack;
+  white-space: pre-wrap;
+}
+
+#tooltip_test {
+  font-family: $fonts;
+  background: #000000;
+  width: 250px;
+  height: flexible;
+  position:absolute;
+  border: 0.5px solid #FFFFFF;
+  color: white;
+  display: block;
+  font-size: 13px;
+  font-weight: 500;
+  padding: 0.2rem 0.4rem;
+  white-space: pre;
+  z-index: 300;
+  visibility: hidden;
+  white-space: pre-wrap;
+}
+
+.close {
+  width: 25px;
+}
+
+.country-names{
+  font-size:15px;
+  padding:5px;
+  display:flex;
+  align-items:center;
+}
+
+
+
+/* The Close Button */
+.close {
+    color: #aaa;
+    font-family:'Helvetica';
+    font-weight:100;
+    float:right;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 525px) {
+  #tooltip {
+    max-width: 150px;
+  }
+
+}
+
+    </style>
+</head>
+<body>
+  <div id="map"></div>
+  <script src="//d3js.org/topojson.v1.min.js"></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/d3/4.2.2/d3.min.js"></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/d3-tip/0.7.1/d3-tip.min.js"></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="//pym.nprapps.org/pym.v1.min.js"></script>
+  <script src="./script.js"></script>
+</body>
+</html>

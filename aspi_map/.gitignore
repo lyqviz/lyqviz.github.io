@@ -1,0 +1,9 @@
+.DS_Store
+credentials.json
+node_modules
+public/bundle.css
+public/bundle.js
+public/bundle.js.map
+public/prerender/.temp/*
+public/prerender/.temp/*
+public/prerendered.html

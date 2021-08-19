@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width,initial-scale=1" />
+
+		<title>Update</title>
+	</head>
+
+	<script></script>
+
+	<body class="update">
+		<link rel="stylesheet" href="./bundle.css" />
+
+		<div class="update__panel">
+			<iframe
+				src="https://docs.google.com/spreadsheets/d/e/2PACX-1vRQ497-6DfcmSfhZXmbhSPzhteSBWwMV5WL1H4ilvf5tlXWGbqNrATdbjQ5Az2URKWo5DgcU_akZRZi/pubhtml?widget=true&amp;headers=false"
+			></iframe>
+
+			<button class="update__button" id="update__button" href="/">Update</button>
+		</div>
+
+		<script>
+			document
+				.getElementById("update__button")
+				.addEventListener('click', () => {
+					console.log('update');
+				});
+		</script>
+	</body>
+</html>
