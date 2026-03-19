@@ -103,6 +103,13 @@ body {
   color: #191919;
 }
 
+.sample_link:hover,
+.sample_link:focus,
+.sample_link:active {
+  text-decoration: none;
+  color: #191919;
+}
+
 .sample_link:hover .sample_title_border {
   border-bottom: solid 4px #1d91c0;
 }
@@ -273,7 +280,9 @@ body {
   padding-right: 5px;
 }
 
-#buttons a:link, a:hover, a:active{
+#buttons a:link,
+#buttons a:hover,
+#buttons a:active {
   background: #ffffff;
   text-decoration: none;
 }
@@ -303,6 +312,7 @@ p.italic {
 .portfolio_pic {
   width: 300px;
   height: 225px;
+  display: block;
   opacity: 0.8;
   object-fit: cover;
   box-shadow: 0px 2px 5px #b0b0b0;
